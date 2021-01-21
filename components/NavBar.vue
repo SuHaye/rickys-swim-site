@@ -9,7 +9,7 @@
             <div class="w-full relative flex justify-between lg:w-auto lg:block lg:justify-start">
                 <NuxtLink 
                 class="text-white text-xl lg:text-2xl font-bold leading-relaxed inline-block m-3 p-2" 
-                to="#Patick"
+                to="/"
                 >RickySwimSite
                 </NuxtLink>
                 <button 
@@ -32,7 +32,7 @@
                     <li class="nav-item">
                         <NuxtLink 
                         class="flex items-center mx-3 my-2 px-2 lg:py-2 text-lg font-bold text-white hover:text-gray-300" 
-                        to="#patrick"
+                        to="/contact"
                         >CONTACT
                         <i class="" />
                         </NuxtLink>
