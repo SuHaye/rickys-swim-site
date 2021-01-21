@@ -1,4 +1,4 @@
-# ricky-swim
+# A website I am building for my friend who is trying to get a swim team together.
 
 ## Build Setup
 
