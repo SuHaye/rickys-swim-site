@@ -1,81 +1,100 @@
 <template>
-    <div
-      class="relative flex content-center items-center justify-center"
-      style="min-height: 100vh;"
-      >
+    <!-- Holds Everything -->
+    <div class="mt-8">
 
-      <!-- Section for the background Image and Overlay -->
-      <div 
-        class="absolute w-full h-full bg-cover bg-center bg-fixed"
-        style='background-image: url("https://images.unsplash.com/photo-1530549387789-4c1017266635?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");'
-        >
-        <!-- Overlay -->
-        <span id="blackOverlay" class="absolute bg-black w-full h-full opacity-50"></span>
-      </div> 
+      <!--    Carousel    -->
+      <div class="carousel relative shadow-2xl">
+        <div class="carousel-inner relative overflow-hidden w-full">
 
-      <!--Content on top of background Image  -->
-      <div class="relative container mx-auto">
-        <div class="flex justify-center text-center w-full">
-          <!-- Top Text -->
-          <div class="text-cener ml-8 lg:ml-28 md:ml-20">
-            <h1
-              class="text-white font-semibold text-5xl"
-              >RickySwimSite
-            </h1>
-            <hr class="my-5">
-            <h2 
-              class="text-white text-2xl mt-5 mb-10"
-              >Our vision is to achieve excellence
-            </h2>
-            <!-- Link -->
-            <NuxtLink
-              class="text-white uppercase text-xl font-bold border-2 border-solid border-white rounded-lg px-2 py-1 hover:text-gray-200 hover:bg-blue-500 hover:opacity-80"
-              to="/contact"
-              >Contact Us
-            </NuxtLink>
+
+          <!--Slide 1-->
+          <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+          <div class="carousel-item absolute opacity-0" style="height:75vh;">
+            <div 
+              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
+              style='background-image: url("https://images.unsplash.com/photo-1530138948699-6a75eebc9d9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80");'
+              >Slide 1
+            </div>
           </div>
+          <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+          <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+          
+
+          <!--Slide 2-->
+          <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+          <div class="carousel-item absolute opacity-0" style="height:75vh;">
+            <div 
+              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
+              style='background-image: url("https://images.unsplash.com/photo-1461567797193-e5b489ac026a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");'
+              >Slide 2
+            </div>
+          </div>
+          <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+          <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label> 
+          
+          
+          <!--Slide 3-->
+          <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+          <div class="carousel-item absolute opacity-0" style="height:75vh;">
+            <div 
+              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
+              style='background-image: url("https://images.unsplash.com/photo-1584172295536-fd672ad14eaf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80");'
+              >Slide 3
+            </div>
+          </div>
+          <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+          <label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+          <!-- Add additional indicators for each slide-->
+          <ol class="carousel-indicators">
+            <li class="inline-block mr-3">
+              <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+            <li class="inline-block mr-3">
+              <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+            <li class="inline-block mr-3">
+              <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+          </ol>
         </div>
+      <!-- Carousel -->
       </div>
 
-      <!-- Content Underneath Hero Image -->
-      <section>
-        <div class="relative container mx-auto bg-white -mt-20 rounded-lg shadow-lg">
-
-          <!-- Container for both sides of information -->
-          <div class="bg-white">
-
-            <!-- Information on Left Side -->
-            <div class="container">
-
-
-              
-
-            <!-- Information on Left Side -->
-            </div>
-
-
-
-            <!-- Information on Right Side -->
-            <div class="container">
-
-            <!-- Information on Right Side -->
-            </div>
-
-
-
-          <!-- Container for both sides of information -->
-          </div>
-
-       <!-- Content Underneath Hero Image -->
-        </div>
-      </section>
-
-      
-   <!-- Main Div and Main  -->
+    <!-- Holds Everything -->
     </div>
- 
+
+
 </template>
 
-<script>
-export default {}
-</script>
+<style>
+			.carousel-open:checked + .carousel-item {
+				position: static;
+				opacity: 100;
+			}
+			.carousel-item {
+				-webkit-transition: opacity 0.6s ease-out;
+				transition: opacity 0.6s ease-out;
+			}
+			#carousel-1:checked ~ .control-1,
+			#carousel-2:checked ~ .control-2,
+			#carousel-3:checked ~ .control-3 {
+				display: block;
+			}
+			.carousel-indicators {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				bottom: 2%;
+				left: 0;
+				right: 0;
+				text-align: center;
+				z-index: 10;
+			}
+			#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+			#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+			#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+				color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
+			}
+		</style>

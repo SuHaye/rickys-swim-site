@@ -1,16 +1,16 @@
 <template>
 
-<!-- Container Holds All Content -->
-    <nav class="absolute z-50 w-full bg-transparent flex flex-wrap items-center justify-between navbar-expand-lg">
+    <!-- Main Nav Container -->
+    <nav class="z-50 h-32 w-full bg-blue-300 flex flex-wrap items-center justify-between navbar-expand-lg">
         <!-- Container Holds All of the Content -->
-        <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="container mx-auto flex flex-wrap items-center">
 
             <!-- Content on Left Side and Mobile Dropdown Button -->
             <div class="w-full relative flex justify-between lg:w-auto lg:block lg:justify-start">
                 <NuxtLink 
-                class="text-white text-xl lg:text-2xl font-bold leading-relaxed inline-block m-3 p-2" 
+                class="text-white text-2xl lg:text-2xl font-bold leading-relaxed inline-block m-3 p-2" 
                 to="/"
-                >RickySwimSite
+                >Maverics Swim Team
                 </NuxtLink>
                 <button 
                 class="mr-10 w-1/6 bg-white text-white cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" 
@@ -40,7 +40,7 @@
                     <li class="nav-item">
                         <NuxtLink 
                         class="flex items-center mx-3 my-2 px-2 lg:py-2 text-lg font-bold text-white hover:text-gray-300" 
-                        to="#patrick2"
+                        to="/about"
                         >ABOUT US
                         <i class="" />
                         </NuxtLink>
@@ -70,9 +70,6 @@
     <!-- Main Nav Container -->
     </nav>
 </template>
-
-
-
 
 <script>
 export default {

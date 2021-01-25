@@ -1,10 +1,10 @@
 <template>
     <!-- Form for sending messages to staff -->
-        <div class="w-full mx-auto px-4 relative bg-gray-900">
+        <div class="w-full mx-auto px-4 relative bg-blue-200">
           <div class="flex flex-wrap justify-center">
-            <div class="w-full lg:w-6/12 px-4">
+            <div class="w-full lg:w-6/12 px-4 my-36">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100"
               >
                 <!-- Text above the inputs -->
                 <div class="flex-auto p-5 lg:p-10">
