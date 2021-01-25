@@ -44,6 +44,48 @@
                       <i class="" />
                     </NuxtLink>
                   </li>
+                  <!-- Social Media Links -->
+                  <div class="flex flex-row">
+                    <li>
+                      <NuxtLink
+                        to="/"
+                        class="flex items-center mx-3 my-2 px-2 lg:py-2 text-white lg:bg-blue-500 lg:rounded-3xl hover:shadow-lg border-2 border-transparent hover:border-white focus:border-blue-500"
+                        >
+                        <fa-icon :icon="['fab','facebook']" />
+                      </NuxtLink>
+                    </li>
+
+                    <li>
+                      <NuxtLink
+                        to="/"
+                        class="flex items-center mx-3 my-2 px-2 lg:py-2 text-white lg:bg-blue-400 lg:rounded-3xl hover:shadow-lg border-2 border-transparent hover:border-white focus:border-blue-500"
+                        >
+                        <fa-icon :icon="['fab','twitter']" />
+                      </NuxtLink>
+                    </li>
+
+                    <li>
+                      <NuxtLink
+                        to="/"
+                        class="flex items-center mx-3 my-2 px-2 lg:py-2 text-white lg:bg-green-500 lg:rounded-3xl hover:shadow-lg border-2 border-transparent hover:border-white focus:border-blue-500"
+                        >
+                        <fa-icon :icon="['fab','google']" />
+                      </NuxtLink>
+                    </li>
+                    
+                    <li>
+                      <NuxtLink
+                        to="/"
+                        class="flex items-center mx-3 my-2 px-2 lg:py-2 text-white lg:bg-indigo-300 lg:rounded-3xl hover:shadow-lg border-2 border-transparent hover:border-white focus:border-blue-500"
+                        >
+                        <fa-icon :icon="['fab','instagram']" />
+                      </NuxtLink>
+                    </li>
+                  </div>
+
+                  
+
+                  
                 </ul>    
                 <!-- List of Links -->
                 <ul class="flex flex-col lg:flex-row list-none ml-auto">
@@ -82,6 +124,7 @@
 </template>
 
 <script>
+
 export default {
   name: "blue-navbar",
   data() {
@@ -89,6 +132,7 @@ export default {
       showMenu: false
     }
   },
+  
   methods: {
     toggleNavbar: function(){
       this.showMenu = !this.showMenu;
