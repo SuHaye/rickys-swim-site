@@ -3,8 +3,8 @@
     <div class="">
 
       <!--    Carousel    -->
-      <div class="carousel relative shadow-2xl">
-        <div class="carousel-inner relative overflow-hidden w-full pt-40">
+      <div class="carousel relative shadow-2xl opacity-90">
+        <div class="carousel-inner relative overflow-hidden w-full pt-36 lg:pt-48">
 
 
           <!--Slide 1-->

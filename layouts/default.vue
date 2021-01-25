@@ -1,6 +1,6 @@
 <template>
   <div class>
-    <NavBar class="shadow-xl hover:shadow-2xl" />
+    <NavBar />
     <Nuxt />
     <Footer />
   </div>
