@@ -9,16 +9,16 @@
             <!-- Content on Left Side and Mobile Dropdown Button -->
             <div class="w-full relative flex justify-between lg:w-auto lg:block lg:justify-start">
                 <NuxtLink 
-                class="text-white text-2xl lg:text-2xl font-bold leading-relaxed inline-block m-3 p-2" 
+                class="text-white text-2xl lg:text-4xl font-bold leading-relaxed inline-block m-3 p-2" 
                 to="/"
                 >Maverics Swim Team
                 </NuxtLink>
                 <button 
-                class="mr-10 w-1/6 bg-white text-white cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" 
+                class="mr-10 w-1/6 text-white hover:text-gray-200 cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" 
                 type="button" 
                 v-on:click="toggleNavbar()"
                 >
-                <i class=""></i>
+                <fa-icon class="text-4xl" :icon="['fas','bars']" />
                 </button>
             <!-- Content on Left Side and Mobile Dropdown Button -->
             </div>
@@ -33,7 +33,7 @@
                   <li>
                     <NuxtLink
                       to="/"
-                      class="flex items-center mx-3 my-2 px-2 lg:py-2 text-lg lg:text-base font-bold text-white hover:text-gray-300 lg:border-2 border-transparent lg:rounded-2xl lg:px-10 hover:border-gray-300 lg:hover:shadow-lg focus:border-blue-500 focus:text-white focus:shadow-2xl"
+                      class="flex items-center mx-3 my-2 px-2 lg:py-2 text-lg lg:text-base font-bold text-white hover:text-gray-100 lg:border-2 border-transparent lg:rounded-2xl lg:px-10 hover:border-white lg:hover:shadow-lg focus:border-blue-500 focus:text-white focus:shadow-2xl"
                       >Sign In
                       <i class="" />
                     </NuxtLink>
@@ -41,7 +41,7 @@
                   <li>
                     <NuxtLink
                       to="/"
-                      class="flex items-center mx-3 my-2 px-2 lg:py-2 text-lg lg:text-base font-bold text-white hover:text-gray-300 lg:bg-blue-400 lg:rounded-2xl lg:px-10 lg:hover:shadow-lg lg:border-2 border-transparent hover:border-gray-300 focus:border-blue-500 focus:text-white focus:shadow-2xl"
+                      class="flex items-center mx-3 my-2 px-2 lg:py-2 text-lg lg:text-base font-bold text-white hover:text-gray-100 lg:bg-blue-400 lg:rounded-2xl lg:px-10 lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-blue-500 focus:text-white focus:shadow-2xl"
                       >Sign Up
                       <i class="" />
                     </NuxtLink>
@@ -98,7 +98,7 @@
                         to="/contact"
                         >CONTACT
                         
-                        </NuxtLink>
+                        </NuxtLink> 
                     </li>
                     <li class="">
                         <NuxtLink 
