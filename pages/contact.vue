@@ -2,7 +2,7 @@
     <!-- Form for sending messages to staff -->
         <div class="w-full mx-auto px-4 relative bg-blue-200">
           <div class="flex flex-wrap justify-center">
-            <div class="w-full lg:w-6/12 px-4 my-36">
+            <div class="w-full lg:w-6/12 px-4 mt-64 mb-40">
               <div
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100"
               >

@@ -1,10 +1,10 @@
 <template>
     <!-- Holds Everything -->
-    <div class="mt-8">
+    <div class="">
 
       <!--    Carousel    -->
       <div class="carousel relative shadow-2xl">
-        <div class="carousel-inner relative overflow-hidden w-full">
+        <div class="carousel-inner relative overflow-hidden w-full pt-40">
 
 
           <!--Slide 1-->
