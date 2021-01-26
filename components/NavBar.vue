@@ -3,7 +3,7 @@
     <!-- Main Nav Container -->
     <nav class="z-50 h-auto w-full bg-blue-300 flex flex-wrap items-center justify-between navbar-expand-lg fixed shadow-lg hover:shadow-xl">
         <!-- Container Holds All of the Content -->
-        <div class="container mx-auto flex flex-wrap items-center justify-between pb-5 pt-2"
+        <div class="container mx-auto flex flex-wrap items-center justify-between pb-6 lg:pb-0 pt-2"
         v-bind:class="{'bg-transparent': !showMenu, 'bg-blue-300': showMenu}">
 
             <!-- Content on Left Side and Mobile Dropdown Button -->
@@ -14,7 +14,7 @@
                 >Maverics Swim Team
                 </NuxtLink>
                 <button 
-                class="mr-10 w-1/6 text-white hover:text-gray-200 cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" 
+                class="mr-10 text-white hover:text-gray-200 cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" 
                 type="button" 
                 v-on:click="toggleNavbar()"
                 >
@@ -30,18 +30,18 @@
             >
                 <ul class="flex flex-col-reverse lg:flex-row list-none ml-auto tracking-widest">
                   <span class="flex flex-row">
-                  <li>
+                  <li class="flex items-center">
                     <NuxtLink
                       to="/"
-                      class="flex items-center mx-3 my-2 px-2 lg:py-2 text-lg lg:text-base font-bold text-white hover:text-gray-100 lg:border-2 border-transparent lg:rounded-2xl lg:px-10 hover:border-white lg:hover:shadow-lg focus:border-blue-500 focus:text-white focus:shadow-2xl"
+                      class="flex items-center mx-3 lg:mx-0 my-2 px-2 lg:p-0 text-lg lg:text-base font-bold text-white hover:text-gray-100 lg:border-2 border-transparent lg:rounded-2xl lg:px-5 hover:border-white lg:hover:shadow-lg focus:border-blue-500 focus:text-white focus:shadow-2xl"
                       >Sign In
                       <i class="" />
                     </NuxtLink>
                   </li>
-                  <li>
+                  <li class="flex items-center">
                     <NuxtLink
                       to="/"
-                      class="flex items-center mx-3 my-2 px-2 lg:py-2 text-lg lg:text-base font-bold text-white hover:text-gray-100 lg:bg-blue-400 lg:rounded-2xl lg:px-10 lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-blue-500 focus:text-white focus:shadow-2xl"
+                      class="flex items-center mx-3 lg:mx-2 my-2 px-2 lg:p-0 lg:mt-2 text-lg lg:text-base font-bold text-white hover:text-gray-100 lg:bg-blue-400 lg:rounded-2xl lg:px-5 lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-blue-500 focus:text-white focus:shadow-2xl"
                       >Sign Up
                       <i class="" />
                     </NuxtLink>
@@ -52,7 +52,7 @@
                     <li>
                       <NuxtLink
                         to="/"
-                        class="flex items-center mx-3 my-2 px-2 lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-blue-500 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
+                        class="flex items-center mx-3 lg:mx-1 my-2 px-2 lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-blue-500 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
                         >
                         <fa-icon :icon="['fab','facebook']" />
                       </NuxtLink>
@@ -61,7 +61,7 @@
                     <li>
                       <NuxtLink
                         to="/"
-                        class="flex items-center mx-3 my-2 px-2  lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-blue-400 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
+                        class="flex items-center mx-3 lg:mx-1 my-2 px-2  lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-blue-400 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
                         >
                         <fa-icon :icon="['fab','twitter']" />
                       </NuxtLink>
@@ -70,7 +70,7 @@
                     <li>
                       <NuxtLink
                         to="/"
-                        class="flex items-center mx-3 my-2 px-2 lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-green-500 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
+                        class="flex items-center mx-3 lg:mx-1 my-2 px-2 lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-green-500 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
                         >
                         <fa-icon :icon="['fab','google']" />
                       </NuxtLink>
@@ -79,7 +79,7 @@
                     <li>
                       <NuxtLink
                         to="/"
-                        class="flex items-center mx-3 my-2 px-2 lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-indigo-300 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
+                        class="flex items-center mr-5 lg:ml-1 my-2 px-2 lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-indigo-300 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
                         >
                         <fa-icon :icon="['fab','instagram']" />
                       </NuxtLink>

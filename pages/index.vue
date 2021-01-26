@@ -4,14 +4,14 @@
 
       <!--    Carousel    -->
       <div class="carousel relative shadow-2xl opacity-90">
-        <div class="carousel-inner relative overflow-hidden w-full pt-36 lg:pt-48">
+        <div class="carousel-inner relative overflow-hidden w-full">
 
 
           <!--Slide 1-->
           <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-          <div class="carousel-item absolute opacity-0" style="height:75vh;">
+          <div class="carousel-item absolute opacity-0" style="height:90vh;">
             <div 
-              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
+              class="block h-full w-full bg-cover bg-center mt-28 text-white text-5xl text-center"
               style='background-image: url("../slide-one.jpg");'
               >Title 1
             </div>
@@ -22,9 +22,9 @@
 
           <!--Slide 2-->
           <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-          <div class="carousel-item absolute opacity-0" style="height:75vh;">
+          <div class="carousel-item absolute opacity-0" style="height:90vh;">
             <div 
-              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
+              class="block h-full w-full bg-cover bg-center mt-28 text-white text-5xl text-center"
               style='background-image: url("../slide-two.jpg");'
               >Title 2
             </div>
@@ -35,9 +35,9 @@
           
           <!--Slide 3-->
           <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-          <div class="carousel-item absolute opacity-0" style="height:75vh;">
+          <div class="carousel-item absolute opacity-0" style="height:90vh;">
             <div 
-              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
+              class="block h-full w-full bg-cover bg-center mt-28 text-white text-5xl text-center"
               style='background-image: url("../slide-three.jpg");'
               >Title 3
             </div>
@@ -61,8 +61,8 @@
       <!-- Carousel -->
       </div>
 
-      <!-- All content under carousel -->
-      <div class="container mx-auto bg-blue-100 lg:mt-20 mt-24 p-10">
+      <!-- First Container -->
+      <div class="bg-blue-100 mt-20 pb-10 p-10 md:rounded-xl shadow-lg md:mx-4 lg:mx-5">
         <!-- First Section -->
         <section class="container mx-auto">
           <!-- Flex -->
@@ -105,10 +105,10 @@
                     class="text-xl tracking-wide text-gray-600 my-5"
                     >We continue to stress the importance of preventing the spread of infection and ask for you to follow the information being circulated by healthcare officials.
                   </p>
-                  <div class="mt-10 mb-5 2xl:mt-16">
+                  <div class="mt-8 mb-5 2xl:mt-16">
                     <a
                       href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"
-                      class=" py-1 px-2 text-xl tracking-wide text-gray-700 hover:text-black border-2 border-transparent rounded-2xl hover:border-white hover:shadow-lg focus:border-blue-500 focus:text-black focus:bg-blue-200"
+                      class=" py-1 px-2 text-xl font-semibold tracking-wide text-gray-700 hover:text-black border-2 border-transparent rounded-2xl focus:border-blue-500 focus:text-black focus:bg-blue-200"
                       >Covid-19 Information
                     </a>
                   </div>
@@ -125,13 +125,13 @@
                   <div class="mb-5 lg:mt-2">
                     <NuxtLink
                       to="/"
-                      class="m-5 lg:mx-3 py-1 px-2 rounded-2xl text-2xl lg:text-3xl text-white font-bold tracking-wider hover:text-gray-200 focus:text-gray-300 border-2 border-transparent focus:border-white focus:bg-blue-400"
-                      >Swimming News
+                      class="m-5 lg:mx-3 py-1 px-2 rounded-2xl text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-white font-bold tracking-widest hover:text-gray-200 focus:text-gray-300 border-2 border-transparent focus:border-white focus:bg-blue-400"
+                      >Swimming Events
                     </NuxtLink>
                   </div>
-                  <hr class="mx-5 mb-5 w-5/6 md:w-3/4 lg:w-5/6 xl:w-5/6 2xl:w-5/6">
+                  <hr class="mx-5 mb-5 w-5/6 md:w-5/6 lg:w-5/6 2xl:w-5/6">
                   <p
-                    class="px-5 lg:pr-5 lg:pl-1 w-5/6 md:w-3/4 lg:w-11/12 xl:w-5/6 2xl:w-5/6 mx-5 mb-5 text-xl tracking-wide text-gray-100"
+                    class="px-4 lg:pr-5 lg:pl-1 w-5/6 md:w-11/12 lg:w-11/12 2xl:w-11/12 mx-2 lg:mx-5 mb-8 text-xl tracking-wide text-gray-100"
                     >Check out the latest news and important updates from the organization, tips for training, and any upcoming events.
                   </p>
                 </div>
@@ -142,8 +142,36 @@
         <!-- First Section -->
         </section>
 
+      <!-- First Container -->
+      </div>
 
-      <!-- All content under carousel -->
+      
+      <!-- Second Container -->
+      <div class="">
+        <!-- Third Section -->
+        <section class="container mx-auto mt-20 ">
+          <!-- Flex -->
+          <div class="flex flex-col mx-5 md:mx-auto md:w-3/5 lg:w-1/2 xl:w-2/5 2xl:w-1/3">
+            <!-- Contact Us Container -->
+            <div class="bg-gray-100 flex flex-col text-center items-center p-5 rounded-2xl shadow-lg">
+              <h2
+                class="text-3xl md:text-4xl text-gray-700 font-bold tracking-widest"
+                >Contact Us
+              </h2>
+              <hr class="my-5 w-11/12">
+              <p
+                class="whitespace-pre-line w-11/12 text-xl text-gray-600"
+                >If you would like to contact one of us,
+                please leave your full name, email, along 
+                with a description of the situation and we
+                will get back to you as soon as possible. 
+                Have a good day.
+              </p>
+            </div>
+          <!-- Flex -->
+          </div>
+        </section>
+      <!-- Second Container -->
       </div>
     <!-- Holds Everything -->
     </div>
