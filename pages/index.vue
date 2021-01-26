@@ -62,15 +62,15 @@
       </div>
 
       <!-- First Container -->
-      <div class="bg-blue-100 mt-20 pb-10 p-10 md:rounded-xl shadow-lg md:mx-4 lg:mx-5">
+      <div class="bg-blue-100 mt-20 pb-10 p-10 md:rounded-xl shadow-lg md:mx-4 lg:mx-5 border-2 border-blue-200">
         <!-- First Section -->
         <section class="container mx-auto">
           <!-- Flex -->
           <div class="flex flex-col">
 
             <!-- Vision Section -->
-            <div class="bg-gray-100 flex flex-col text-center items-center p-5 px-5 rounded-2xl shadow-lg">
-              <div class="rounded-full bg-blue-400 p-3 px-4 flex shadow-lg">
+            <div class="bg-gray-100 flex flex-col text-center items-center p-5 px-5 rounded-2xl shadow-lg border-2 border-blue-200">
+              <div class="rounded-full bg-blue-400 p-3 px-4 flex shadow-lg border-2 border-blue-500">
                 <fa-icon class="text-2xl text-white" :icon="['fas','award']" />
               </div>
               <h6 class="my-5 text-2xl text-gray-700 font-bold uppercase tracking-widest"
@@ -86,7 +86,7 @@
             <div class="flex flex-col lg:flex-row mt-20 lg:p-10 xl:p-20">
               <!-- Left Side -->
               <div class="flex flex-col mb-20 lg:mb-0">
-                <div class="rounded-full bg-white p-4 flex shadow-lg w-min mb-6">
+                <div class="rounded-full bg-white p-4 flex shadow-lg w-min mb-6 border-2 border-blue-300">
                   <fa-icon class="text-2xl text-blue-400 " :icon="['fas','clinic-medical']" />
                 </div>
                 <h3
@@ -116,11 +116,11 @@
               </div>
               <!-- Right Side -->
               <div class="lg:my-auto">
-                <div class="flex flex-col bg-blue-300 rounded-2xl shadow-lg">
+                <div class="flex flex-col bg-blue-300 rounded-2xl shadow-lg border-2 border-blue-200">
                   <img
                     alt="..."
                     src="../static/swimnews.jpg"
-                    class="m-5 lg:m-2 mb-5 rounded-xl shadow-lg"
+                    class="m-5 lg:m-2 mb-5 rounded-xl shadow-lg border-2 border-blue-200"
                   />
                   <div class="mb-5 lg:mt-2">
                     <NuxtLink
@@ -141,26 +141,25 @@
           </div>
         <!-- First Section -->
         </section>
-
       <!-- First Container -->
       </div>
 
       
       <!-- Second Container -->
-      <div class="">
+      <div class="bg-blue-300 mt-20 pb-10 md:rounded-xl lg:rounded-none shadow-lg md:mx-4 lg:mx-0 lg:border-x-0 border-2 border-blue-100">
         <!-- Third Section -->
-        <section class="container mx-auto mt-20 ">
+        <section class="container mx-auto">
           <!-- Flex -->
-          <div class="flex flex-col mx-5 md:mx-auto md:w-3/5 lg:w-1/2 xl:w-2/5 2xl:w-1/3">
+          <div class="flex flex-col">
             <!-- Contact Us Container -->
-            <div class="bg-gray-100 flex flex-col text-center items-center p-5 rounded-2xl shadow-lg">
+            <div class="flex flex-col text-center items-center my-10 lg:mt-20">
               <h2
-                class="text-3xl md:text-4xl text-gray-700 font-bold tracking-widest"
+                class="text-3xl md:text-4xl lg:text-5xl text-white font-extrabold tracking-widest"
                 >Contact Us
               </h2>
-              <hr class="my-5 w-11/12">
+              <hr class="my-5 w-11/12 md:w-3/5 lg:w-2/5 xl:w-1/3 2xl:w-1/4">
               <p
-                class="whitespace-pre-line w-11/12 text-xl text-gray-600"
+                class="whitespace-pre-line w-11/12 text-xl lg:text-2xl text-white"
                 >If you would like to contact one of us,
                 please leave your full name, email, along 
                 with a description of the situation and we
@@ -168,7 +167,80 @@
                 Have a good day.
               </p>
             </div>
+
+            <!-- Form for sending messages to staff -->
+            <div class="w-full mx-auto px-4 relative md:my-5">
+              <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-3/4 xl:w-3/5 2xl:w-2/5 px-4">
+                  <div
+                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100"
+                  >
+                    <!-- Text above the inputs -->
+                    <div class="flex-auto p-5 lg:p-10">
+                      <h4 class="text-2xl font-semibold">Want to ask us a question?</h4>
+                      <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                        Complete this form and we will get back to you in 24 hours.
+                      </p>
+                      <!-- Area for name -->
+                      <div class="relative w-full mb-3 mt-8">
+                        <label
+                          class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                          for="full-name"
+                          >Full Name</label
+                        ><input
+                          type="text"
+                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                          placeholder="Full Name"
+                          style="transition: all 0.15s ease 0s;"
+                        />
+                      </div>
+                      <!-- Area for email -->
+                      <div class="relative w-full mb-3">
+                        <label
+                          class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                          for="email"
+                          >Email</label
+                        ><input
+                          type="email"
+                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                          placeholder="Email"
+                          style="transition: all 0.15s ease 0s;"
+                        />
+                      </div>
+                      <!-- Area for the message -->
+                      <div class="relative w-full mb-3">
+                        <label
+                          class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                          for="message"
+                          >Message</label
+                        ><textarea
+                          rows="4"
+                          cols="80"
+                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                          placeholder="Type a message..."
+                        ></textarea>
+                      </div>
+                      <!-- Button to send message -->
+                      <div class="text-center mt-6">
+                        <button
+                          class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                          style="transition: all 0.15s ease 0s;"
+                        >
+                          Send Message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Form for sending messages to staff -->
+            </div>
           <!-- Flex -->
+          </div>
+          <!-- Flex 2 -->
+          <div class="flex flex-col">
+            
           </div>
         </section>
       <!-- Second Container -->
