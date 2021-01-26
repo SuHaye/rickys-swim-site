@@ -19,7 +19,7 @@
                                 us.
                                 </p>
                             </div>
-                            <div class="justify-evenly flex text-gray-200 ">
+                            <div class="justify-evenly flex text-gray-200">
                                 <NuxtLink
                                     to="/"
                                     class="hover:text-gray-300"
