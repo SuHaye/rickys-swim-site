@@ -69,7 +69,7 @@
           <div class="flex flex-col">
 
             <!-- Vision Section -->
-            <div class="bg-gray-100 flex flex-col text-center items-center p-5 px-5 rounded-2xl shadow-lg border-2 border-blue-200">
+            <div class="bg-gray-100 flex flex-col text-center items-center p-5 rounded-2xl shadow-lg border-2 border-blue-200">
               <div class="rounded-full bg-blue-400 p-3 px-4 flex shadow-lg border-2 border-blue-500">
                 <fa-icon class="text-2xl text-white" :icon="['fas','award']" />
               </div>
@@ -141,12 +141,13 @@
           </div>
         <!-- First Section -->
         </section>
+        <!-- Second Section -->
       <!-- First Container -->
       </div>
 
       
       <!-- Second Container -->
-      <div class="bg-blue-300 mt-20 pb-10 md:rounded-xl lg:rounded-none shadow-lg md:mx-4 lg:mx-0 lg:border-x-0 border-2 border-blue-100">
+      <div class="bg-blue-300 mt-20 lg:mx-0 border-t-2 border-blue-100">
         <!-- Third Section -->
         <section class="container mx-auto">
           <!-- Flex -->
@@ -169,17 +170,17 @@
             </div>
 
             <!-- Form for sending messages to staff -->
-            <div class="w-full mx-auto px-4 relative md:my-5">
+            <div class="w-full mx-auto px-5 md:px-10 relative md:my-5">
               <div class="flex flex-wrap justify-center">
-                <div class="w-full lg:w-3/4 xl:w-3/5 2xl:w-2/5 px-4">
+                <div class="w-full lg:w-3/4 xl:w-3/5 2xl:w-2/5 px-0">
                   <div
-                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100"
+                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100 border-2 border-blue-200"
                   >
                     <!-- Text above the inputs -->
                     <div class="flex-auto p-5 lg:p-10">
-                      <h4 class="text-2xl font-semibold">Want to ask us a question?</h4>
+                      <h4 class="text-2xl font-semibold text-gray-700">Want to ask us a question?</h4>
                       <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                        Complete this form and we will get back to you in 24 hours.
+                        Complete this form and we will get back to you soon.
                       </p>
                       <!-- Area for name -->
                       <div class="relative w-full mb-3 mt-8">
@@ -189,7 +190,7 @@
                           >Full Name</label
                         ><input
                           type="text"
-                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-gray-100 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                           placeholder="Full Name"
                           style="transition: all 0.15s ease 0s;"
                         />
@@ -202,7 +203,7 @@
                           >Email</label
                         ><input
                           type="email"
-                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-gray-100 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                           placeholder="Email"
                           style="transition: all 0.15s ease 0s;"
                         />
@@ -216,14 +217,14 @@
                         ><textarea
                           rows="4"
                           cols="80"
-                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-gray-100 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                           placeholder="Type a message..."
                         ></textarea>
                       </div>
                       <!-- Button to send message -->
                       <div class="text-center mt-6">
                         <button
-                          class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                          class="bg-gray-500 hover:bg-gray-600 focus:text-blue-100 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-xl outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                           style="transition: all 0.15s ease 0s;"
                         >

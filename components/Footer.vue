@@ -1,181 +1,138 @@
-<template>
-
-    <footer class="relative bg-gray-200 pt-0 xl:pt-8 pb-6">
-      <div
-        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px; transform: translateZ(0px);"
-      >
-      </div>
-
-
-
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap">
-          <!-- Content on Left Side -->
-          <div class="w-full lg:w-6/12 px-4">
-            <h4 class="lg:text-4xl font-semibold text-3xl">Let's keep in touch!</h4>
-            <h5 class="text-lg mt-0 mb-2 text-gray-700">
-              Find us on any of these platforms, we respond quickly.
-            </h5>
-
-
-
-            <!-- Social Media Icons (Need to adjust to tailwind css)-->
-            <div class="mt-6">
-              <button
-                class="bg-white text-blue-400 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:shadow-xl"
-                type="button"
-              >
-                <i class="flex fab fa-twitter"></i></button>
-
-              <button
-                class="bg-white text-blue-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:shadow-xl"
-                type="button"
-              >
-                <i class="flex fab fa-facebook-square"></i></button>
-
-                <button
-                class="bg-white text-red-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:shadow-xl"
-                type="button"
-              >
-                <i class="flex fab fa-google"></i></button>
-
-                <button
-                class="bg-white text-gray-900 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:shadow-xl"
-                type="button"
-              >
-                <i class="flex fab fa-github"></i></button>
-
-                <button
-                class="bg-white text-blue-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:shadow-xl"
-                type="button"
-              >
-                <i class="flex fab fa-facebook-square"></i></button>
-
-                <button
-                class="bg-white text-blue-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:shadow-xl"
-                type="button"
-              >
-                <i class="flex fab fa-facebook-square"></i></button>
+    <template>
+        <footer class="text-gray-600 bg-blue-300 pt-10">
+            <div class="container mx-auto px-5 lg:pb-10">
+                <!-- Flex -->
+                <div class="flex flex-col lg:flex-row">
+                    <!-- Left Side/Top -->
+                    <div class="">
+                            <div class="hidden lg:block mx-16">
+                                <h2 class="text-white text-3xl font-semibold tracking-widest"
+                                >Let's stay connected!
+                                </h2>
+                                <p class="text-white text-xl w-4/5 mt-2 mb-5 tracking-wider font-thin"
+                                >Find us on any of these platforms or feel free to
+                                    <NuxtLink
+                                        to="/contact"
+                                        class="hover:text-gray-300 text-gray-200"
+                                        >contact
+                                    </NuxtLink>
+                                us.
+                                </p>
+                            </div>
+                            <div class="justify-evenly flex text-gray-200 ">
+                                <NuxtLink
+                                    to="/"
+                                    class="hover:text-gray-300"
+                                    >
+                                    <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','facebook']" />
+                                </NuxtLink>
+                                <NuxtLink
+                                    to="/"
+                                    class="hover:text-gray-300"
+                                    >
+                                    <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','twitter']" />
+                                </NuxtLink>
+                                <NuxtLink
+                                    to="/"
+                                    class="hover:text-gray-300"
+                                    >
+                                    <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','google']" />
+                                </NuxtLink>
+                                <NuxtLink
+                                    to="/"
+                                    class="hover:text-gray-300"
+                                    >
+                                    <fa-icon class="text-6xl lg:text-5xl xl:text-6xl" :icon="['fab','instagram']" />
+                                </NuxtLink>
+                            </div>
+                    </div>
+                    <!-- Right Side/Bottom -->
+                    <div class="pt-10 lg:pt-0 lg:mx-auto text-xl lg:text-lg 2xl:text-xl lg:flex lg:w-1/2 lg:flex lg:justify-evenly">
+                        <div class="text-center mb-10">
+                            <h2
+                                class="hidden lg:block text-gray-100 font-bold tracking-widest"
+                                >Useful Links
+                            </h2>
+                            <hr class="hidden lg:block my-2">
+                            <div class="text-white lg:flex-col flex justify-evenly">
+                                <NuxtLink
+                                    to="/"
+                                    class="hover:text-gray-300 text-gray-200"
+                                    >Home 
+                                </NuxtLink>
+                                <span class="lg:hidden text-gray-200">|</span>
+                                <NuxtLink
+                                    to="/"
+                                    class="hover:text-gray-300 text-gray-200"
+                                    >Contact
+                                </NuxtLink>
+                                <span class="lg:hidden text-gray-200">|</span>
+                                <NuxtLink
+                                    to="/"
+                                    class="hover:text-gray-300 text-gray-200"
+                                    >Events
+                                </NuxtLink>
+                                <span class="lg:hidden text-gray-200">|</span>
+                                <NuxtLink
+                                    to="/"
+                                    class="hidden lg:inline-block hover:text-gray-300 text-gray-200"
+                                    >About Us
+                                </NuxtLink>
+                                <NuxtLink
+                                    to="/"
+                                    class="lg:hidden hover:text-gray-300 text-gray-200"
+                                    >Locations
+                                </NuxtLink>
+                                <span class="lg:hidden text-gray-200">|</span>
+                                <NuxtLink
+                                    to="/"
+                                    class="lg:hidden hover:text-gray-300 text-gray-200"
+                                    >Safe Sport
+                                </NuxtLink>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex lg:flex-col text-center mt-10 lg:mt-0">
+                            <h2
+                            class="text-gray-100 font-bold tracking-widest"
+                            >Other Resources
+                            </h2>
+                            <hr class="hidden lg:block my-2">
+                            <NuxtLink
+                                to=""
+                                class="hover:text-gray-300 text-gray-200"
+                                >Pool Locations
+                            </NuxtLink>
+                            <NuxtLink
+                                to="/"
+                                class="hover:text-gray-300 text-gray-200"
+                                >Terms & Conditions
+                            </NuxtLink>
+                            <NuxtLink
+                                to="/"
+                                class="hover:text-gray-300 text-gray-200"
+                                >Privacy Policy
+                            </NuxtLink>
+                            <NuxtLink
+                                to="/"
+                                class="hover:text-gray-300 text-gray-200"
+                                >MIT License
+                            </NuxtLink>
+                        </div>
+                    </div>
+                <!-- Flex -->
+                </div>
             </div>
-          </div>
-
-
-
-
-          <!-- Content on Right side -->
-          <div class="w-full lg:w-6/12 px-3">
-
-            <!-- First set of Links -->
-            <div class="flex flex-wrap items-top mb-6 mt-20 lg:mt-0">
-              <div class="w-1/2 lg:w-4/12 px-4 ml-auto">
-                <span
-                  class="block uppercase text-gray-600 text-sm font-semibold mb-4 lg:mb-3 "
-                  >Useful Links</span
-                >
-                <ul class="list-unstyled">
-                    <li>
+            <!-- Copyright Info. -->
+            <div class="items-center justify-center py-6 bg-blue-400 border-t-2 border-blue-200">
+                <div class="flex flex-wrap items-center justify-center mx-auto">
+                    <p class="mr-5 text-sm text-center text-gray-200">© Your Company — 2021
+                    </p>
                     <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation"
-                      >Home</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation"
-                      >Public Notices</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com"
-                      >Meetings</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial"
-                      >Getting Help</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free"
-                      >Employee Portal</a
-                    >
-                  </li>
-                </ul>
-              </div>
-
-              <!-- Second set of Links -->
-              <div class="w-1/2 lg:w-4/12 px-4">
-                <span
-                  class="block uppercase text-gray-600 text-sm font-semibold mb-4 lg:mb-3"
-                  >Resources</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                      >About Us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us"
-                      >Contact Us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/terms"
-                      >Terms &amp; Conditions</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/privacy"
-                      >Privacy Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-600 hover:text-black hover:font-black font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us"
-                      >MIT License</a
-                    >
-                  </li>
-                </ul>
-              </div>
+                        href="#"
+                        class="justify-center mr-5 text-sm text-center hover:text-blue-600"
+                        > All Rights Reserves
+                    </a>
+                </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Copyright at bottom of Footer -->
-        <hr class="my-6 border-gray-400" />
-        <div
-          class="flex flex-wrap items-center md:justify-between justify-center"
-        >
-          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div class="text-sm text-gray-600 font-semibold py-1">
-              Copyright © 2021 Insert Text by
-              <a
-                href="https://www.creative-tim.com"
-                class="text-gray-600 hover:text-gray-900"
-                >Creator</a
-              >.
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-</template>
+        </footer>
+    </template>

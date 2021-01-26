@@ -1,10 +1,10 @@
 <template>
 
     <!-- Main Nav Container -->
-    <nav class="z-50 h-auto w-full bg-blue-300 flex flex-wrap items-center justify-between navbar-expand-lg fixed shadow-lg hover:shadow-xl">
+    <nav class="z-50 h-auto w-full xl:px-10 bg-blue-400 flex flex-wrap items-center justify-between navbar-expand-lg fixed shadow-lg hover:shadow-xl">
         <!-- Container Holds All of the Content -->
         <div class="container mx-auto flex flex-wrap items-center justify-between pb-6 lg:pb-0 pt-2"
-        v-bind:class="{'bg-transparent': !showMenu, 'bg-blue-300': showMenu}">
+        v-bind:class="{'bg-transparent': !showMenu, 'bg-blue-400': showMenu}">
 
             <!-- Content on Left Side and Mobile Dropdown Button -->
             <div class="w-full relative flex justify-between lg:w-auto lg:block lg:justify-start">
@@ -26,7 +26,7 @@
             <!-- Content on Right Side of Screen -->
             <div 
             v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" 
-            class="lg:flex lg:flex-grow items-center flex-col"
+            class="lg:flex lg:flex-grow items-center flex-col 2xl:text-xl"
             >
                 <ul class="flex flex-col-reverse lg:flex-row list-none ml-auto tracking-widest">
                   <span class="flex flex-row">
@@ -94,26 +94,30 @@
                 <ul class="flex flex-col lg:flex-row list-none tracking-widest lg:ml-auto">
                     <li class="">
                         <NuxtLink 
-                        class="flex items-center mx-6 my-2 px-2 lg:py-2 text-lg font-bold text-white hover:text-gray-300" 
+                        class="flex items-center mx-6 lg:mr-2 lg:ml-1 my-2 px-2 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
                         to="/contact"
                         >CONTACT
-                        
                         </NuxtLink> 
                     </li>
                     <li class="">
                         <NuxtLink 
-                        class="flex items-center mx-6 my-2 px-2 lg:py-2 text-lg font-bold text-white hover:text-gray-300" 
+                        class="flex items-center mx-6 lg:mr-2 lg:ml-1 my-2 px-2 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
                         to="/about"
-                        >ABOUT US
-                        
+                        >EVENTS
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
-                        class="flex items-center mx-6 my-2 px-2 lg:py-2 text-lg font-bold text-white hover:text-gray-300" 
+                        class="flex items-center mx-6 lg:mr-2 lg:ml-1 my-2 px-2 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
                         to="#patrick3"
-                        >EVENTS
-                        
+                        >ABOUT US
+                        </NuxtLink>
+                    </li>
+                    <li class="">
+                        <NuxtLink 
+                        class="flex items-center mx-6 lg:mr-2 lg:ml-1 my-2 px-2 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
+                        to="#patrick3"
+                        >SAFE SPORT
                         </NuxtLink>
                     </li>
                 </ul>
