@@ -62,7 +62,7 @@
       </div>
 
       <!-- First Container -->
-      <div class="bg-blue-100 mt-20 pb-10 p-10 md:rounded-xl shadow-lg md:mx-4 lg:mx-5 border-2 border-blue-200">
+      <div class="bg-blue-100 mt-20 py-10 p-5 lg:px-10 md:rounded-xl shadow-lg md:mx-4 lg:mx-5 border-2 border-blue-200">
         <!-- First Section -->
         <section class="container mx-auto">
           <!-- Flex -->
@@ -141,7 +141,53 @@
           </div>
         <!-- First Section -->
         </section>
+        <hr class="h-1 bg-blue-200 my-20 lg:hidden">
         <!-- Second Section -->
+        <section class="mt-20 lg:mt-0">
+          <!-- Flex -->
+          <div class="flex flex-col lg:flex-row lg:p-10 xl:p-20 bg-blue-300 rounded-2xl shadow-xl border-2 border-b-0 border-blue-200 ">
+            <div class="lg:w-4/5 xl:w-full p-5 my-auto lg:mr-10 xl:mr-20">
+              <h2
+                class="text-white text-2xl md:text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl lg:tracking-wide 2xl:tracking-widest font-bold tracking-widest text-center"
+                >Abuse Prevention Program
+              </h2>
+              <hr class="mt-5 lg:mb-5">
+              <p
+                class="text-white font-light text-xl p-5 pb-0 md:pb-2 lg:p-2"
+                >We are committed to providing a healthy and positive environment free from abuse for all its members.  
+                Our Safe Sport program, a comprehensive abuse prevention program, consists of a multi-layered approach
+                to keep kids safe, including: required policies and best practice guidelines; mandatory screening, including 
+                criminal background checks and employment screening; training and education; monitoring, supervision and 
+                mandatory reporting. These measures are informed by experts in the field of child safety and are among the 
+                strongest safeguards found in youth-serving organizations.
+              </p>
+              <div class="flex justify-center">
+                <NuxtLink
+                  to="report"
+                  class="text-gray-100 hover:text-gray-200 text-xl font-bold"
+                  >Report An Abuse
+                  <fa-icon class="text-5xl pt-3" :icon="['fas','hand-point-left']" />
+                </NuxtLink>
+              </div>
+            </div>
+            <!-- Images -->
+            <div class="lg:w-4/5 2xl:w-5/6 lg:px-5">
+              <img 
+                src="../static/educate.jpg" 
+                alt="..."
+                class="h-80 w-full lg:h-56 border-2 border-blue-200 lg:rounded-t-2xl shadow-lg">
+              <img 
+                src="../static/action.jpg" 
+                alt=""
+                class="h-80 w-full lg:h-56 border-2 border-blue-200 shadow-lg">
+              <img 
+                src="../static/recover.jpg" 
+                alt=""
+                class="h-80 w-full lg:h-56 border-2 border-blue-200 rounded-b-2xl shadow-lg">
+            </div>
+          <!-- Flex -->
+          </div>
+        </section>
       <!-- First Container -->
       </div>
 
@@ -224,7 +270,7 @@
                       <!-- Button to send message -->
                       <div class="text-center mt-6">
                         <button
-                          class="bg-gray-500 hover:bg-gray-600 focus:text-blue-100 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-xl outline-none focus:outline-none mr-1 mb-1"
+                          class="bg-gray-300 hover:bg-gray-400 border-2 border-transparent focus:border-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-xl outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                           style="transition: all 0.15s ease 0s;"
                         >

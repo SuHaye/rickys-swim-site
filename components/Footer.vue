@@ -13,7 +13,7 @@
                                 >Find us on any of these platforms or feel free to
                                     <NuxtLink
                                         to="/contact"
-                                        class="hover:text-gray-300 text-gray-200"
+                                        class="hover:text-gray-300 text-gray-100"
                                         >contact
                                     </NuxtLink>
                                 us.

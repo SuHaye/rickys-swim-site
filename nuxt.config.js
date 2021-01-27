@@ -39,7 +39,7 @@ export default {
     component: 'fa',
     suffix: true,
     icons: {
-      solid: ['faUserAlt', 'faUserPlus', 'faBars', 'faAward','faClinicMedical'],
+      solid: ['faUserAlt', 'faUserPlus', 'faBars', 'faAward','faClinicMedical','faHandPointLeft'],
       brands: ['faTwitter', 'faGoogle', 'faFacebook', 'faInstagram']
     }
   },
