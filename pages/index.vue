@@ -24,7 +24,7 @@
           <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
           <div class="carousel-item absolute opacity-0" style="height:90vh;">
             <div 
-              class="block h-full w-full bg-cover bg-center mt-28 text-white text-5xl text-center"
+              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
               style='background-image: url("../slide-two.jpg");'
               >
             </div>
@@ -37,7 +37,7 @@
           <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
           <div class="carousel-item absolute opacity-0" style="height:90vh;">
             <div 
-              class="block h-full w-full bg-cover bg-center mt-28 text-white text-5xl text-center"
+              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
               style='background-image: url("../slide-three.jpg");'
               >
             </div>
@@ -326,7 +326,7 @@
                       <!-- Button to send message -->
                       <div class="text-center mt-6">
                         <button
-                          class="bg-gray-300 hover:bg-gray-400 border-2 border-transparent focus:border-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-xl outline-none focus:outline-none mr-1 mb-1"
+                          class="transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-blue-300 hover:from-blue-400 to-blue-200 hover:to-blue-30 focus:ring-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                           style="transition: all 0.15s ease 0s;"
                         >
