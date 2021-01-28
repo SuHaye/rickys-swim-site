@@ -1,9 +1,9 @@
 <template>
     <!-- Holds Everything -->
-    <div class="bg-blue-200">
+    <div class="bg-blue-200 pt-28">
 
       <!--    Carousel    -->
-      <div class="carousel relative shadow-2xl opacity-90">
+      <div class="carousel relative shadow-2xl">
         <div class="carousel-inner relative overflow-hidden w-full">
 
 
@@ -11,9 +11,9 @@
           <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
           <div class="carousel-item absolute opacity-0" style="height:90vh;">
             <div 
-              class="block h-full w-full bg-cover bg-center mt-28 text-white text-5xl text-center"
+              class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
               style='background-image: url("../slide-one.jpg");'
-              >Title 1
+              >
             </div>
           </div>
           <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-500 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -26,7 +26,7 @@
             <div 
               class="block h-full w-full bg-cover bg-center mt-28 text-white text-5xl text-center"
               style='background-image: url("../slide-two.jpg");'
-              >Title 2
+              >
             </div>
           </div>
           <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-500 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -39,7 +39,7 @@
             <div 
               class="block h-full w-full bg-cover bg-center mt-28 text-white text-5xl text-center"
               style='background-image: url("../slide-three.jpg");'
-              >Title 3
+              >
             </div>
           </div>
           <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-500 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
@@ -69,7 +69,7 @@
           <div class="flex flex-col">
 
             <!-- Vision Section -->
-            <div class="bg-gray-100 flex flex-col text-center items-center p-5 rounded-2xl shadow-lg border-2 border-blue-200">
+            <div class="bg-white flex flex-col text-center items-center p-5 rounded-2xl shadow-lg border-2 border-blue-200">
               <div class="rounded-full bg-blue-400 p-3 px-4 flex shadow-lg border-2 border-blue-500">
                 <fa-icon class="text-2xl text-white" :icon="['fas','award']" />
               </div>

@@ -34,16 +34,16 @@
                     <hr class="w-11/12 lg:hidden my-2">
                   <li class="flex items-center">
                     <NuxtLink
-                      to="/"
-                      class=" lg:hover:text-gray-200 flex items-center mx-3 lg:mx-0 my-2 px-2 lg:p-0 text-lg lg:text-base font-bold text-white hover:text-gray-300 lg:border-2 border-transparent lg:rounded-2xl lg:px-5 hover:border-white lg:hover:shadow-lg focus:border-blue-500 focus:text-white focus:shadow-2xl"
+                      to="/sign"
+                      class=" lg:hover:text-gray-200 flex items-center mx-3 lg:mx-0 my-2 px-2 lg:p-0 text-lg lg:text-base font-bold text-white hover:text-gray-300 lg:border-2 border-transparent lg:rounded-2xl lg:px-5 hover:border-white lg:hover:shadow-lg  focus:text-white focus:shadow-2xl"
                       >Sign In
                       <i class="" />
                     </NuxtLink>
                   </li>
                   <li class="flex items-center">
                     <NuxtLink
-                      to="/"
-                      class=" lg:hover:text-gray-200 flex items-center mx-3 lg:mx-2 my-2 px-2 lg:p-0 lg:mt-2 text-lg lg:text-base font-bold text-white hover:text-gray-300 lg:bg-blue-400 lg:rounded-2xl lg:px-5 lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-blue-500 focus:text-white focus:shadow-2xl"
+                      to="/sign"
+                      class=" lg:hover:text-gray-200 flex items-center mx-3 lg:mx-2 my-2 px-2 lg:p-0 lg:mt-2 text-lg lg:text-base font-bold text-white hover:text-gray-300 lg:bg-blue-400 lg:rounded-2xl lg:px-5 lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white  focus:text-white focus:shadow-2xl"
                       >Sign Up
                       <i class="" />
                     </NuxtLink>
