@@ -11,7 +11,7 @@
                 <NuxtLink 
                 class="text-white text-3xl lg:text-4xl font-bold leading-relaxed inline-block m-3 p-2" 
                 to="/"
-                >Maverics Swim Team
+                >Maverics <span class="hidden sm:inline-block">Swim Team</span> 
                 </NuxtLink>
                 <button 
                 class="mr-10 text-white hover:text-gray-200 cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" 

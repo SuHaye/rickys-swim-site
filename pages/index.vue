@@ -125,7 +125,7 @@
                   <div class="mb-5 lg:mt-2">
                     <NuxtLink
                       to="/"
-                      class="m-5 lg:mx-3 py-1 px-2 rounded-2xl text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-white font-bold tracking-widest hover:text-gray-200 focus:text-gray-300 border-2 border-transparent focus:border-white focus:bg-blue-400"
+                      class="m-2 md:m-5 lg:mx-3 py-1 px-2 rounded-2xl text-3xl md:text-4xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-white font-bold tracking-widest hover:text-gray-200 focus:text-gray-300 border-2 border-transparent focus:border-white focus:bg-blue-400"
                       >Swimming Events
                     </NuxtLink>
                   </div>
@@ -146,7 +146,7 @@
         <section class="mt-20 lg:mt-0">
           <!-- Flex -->
           <div class="flex flex-col lg:flex-row lg:p-10 xl:p-20 bg-blue-300 rounded-2xl shadow-xl border-2 border-b-0 border-blue-200 ">
-            <div class="lg:w-4/5 xl:w-full p-5 my-auto lg:mr-10 xl:mr-20">
+            <div class="lg:w-4/5 xl:w-full p-4 my-auto lg:mr-10 xl:mr-20">
               <h2
                 class="text-white text-2xl md:text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl lg:tracking-wide 2xl:tracking-widest font-bold tracking-widest text-center"
                 >Abuse Prevention Program
@@ -172,18 +172,74 @@
             </div>
             <!-- Images -->
             <div class="lg:w-4/5 2xl:w-5/6 lg:px-5">
-              <img 
-                src="../static/educate.jpg" 
-                alt="..."
-                class="h-80 w-full lg:h-56 border-2 border-blue-200 lg:rounded-t-2xl shadow-lg">
-              <img 
-                src="../static/action.jpg" 
-                alt=""
-                class="h-80 w-full lg:h-56 border-2 border-blue-200 shadow-lg">
-              <img 
-                src="../static/recover.jpg" 
-                alt=""
-                class="h-80 w-full lg:h-56 border-2 border-blue-200 rounded-b-2xl shadow-lg">
+              <div 
+                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-b-0 border-blue-200 lg:rounded-t-lg shadow-lg flex flex-col bg-black opacity-80"
+                style='background-image: url("../educate.jpg");'
+                >
+                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
+                    <h2
+                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
+                      >Recognize
+                    </h2>
+                    <p
+                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
+                      >Learn about risks and red flag behaviors.
+                    </p>
+                  </div>
+                  <span class="border-t-2 border-blue-200">
+                    <NuxtLink
+                        to=""
+                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
+                        >Get Educated!
+                    </NuxtLink>
+                  </span>
+              </div>
+              
+              <div 
+                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-blue-200 shadow-lg flex flex-col bg-black opacity-80"
+                style='background-image: url("../action.jpg");'
+                >
+                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
+                    <h2
+                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
+                      >Respond
+                    </h2>
+                    <p
+                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
+                      >Know how to respond to an incident.
+                    </p>
+                  </div>
+                  <span class="border-t-2 border-blue-200">
+                    <NuxtLink
+                        to=""
+                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
+                        >Take Action and Report!
+                    </NuxtLink>
+                  </span>
+              </div>
+              
+              <div 
+                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-blue-200 rounded-b-lg shadow-lg flex flex-col bg-black opacity-80"
+                style='background-image: url("../recover.jpg");'
+                >
+                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
+                    <h2
+                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
+                      >Recover
+                    </h2>
+                    <p
+                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
+                      >Empower survivors with resources.
+                    </p>
+                  </div>
+                  <span class="border-t-2 border-blue-200">
+                    <NuxtLink
+                        to=""
+                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
+                        >Assit With Recovery!
+                    </NuxtLink>
+                  </span>
+              </div>
             </div>
           <!-- Flex -->
           </div>
