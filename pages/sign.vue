@@ -18,8 +18,8 @@
                 </div>
             </div>
         </div>  
-
-        <div class="shadow-lg rounded-lg border-2 border-blue-300 m-10 flex items-center justify-center px-6 bg-blue-100 md:max-w-md lg:max-w-full md:mx-auto md:w-1/2 xl:w-2/5 2xl:w-1/3 lg:px-16 xl:px-12">
+        <!-- Holds Everything under Hero Image -->
+        <div class="shadow-lg rounded-lg border-2 border-blue-300 my-20 flex items-center justify-center px-6 bg-blue-100 md:max-w-md lg:max-w-full md:mx-auto md:w-1/2 xl:w-2/5 2xl:w-1/3 lg:px-16 xl:px-12">
             <!-- Form to LogIn/Create Account -->
             <div class="w-full h-100">
                 <h1 class="mt-12 text-3xl lg:text-4xl font-semibold tracking-tighter text-gray-700">
