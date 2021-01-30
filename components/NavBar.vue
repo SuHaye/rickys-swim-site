@@ -102,7 +102,7 @@
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-2 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
-                        to="/about"
+                        to="/events"
                         >EVENTS
                         </NuxtLink>
                     </li>

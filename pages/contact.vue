@@ -19,7 +19,7 @@
         <div class="shadow-lg rounded-lg border-2 border-blue-300 flex items-center justify-center py-20 px-6 bg-blue-100">
              <!-- Form for sending messages to staff -->
               <div class="flex flex-wrap justify-center">
-                <div class="w-full lg:w-3/4 xl:w-3/5 2xl:w-2/5 px-0">
+                <div class="w-full md:w-2/3 lg:w-3/4 xl:w-4/5 2xl:w-5/6 px-0">
                   <div
                     class="relative flex flex-col min-w-0 break-words w-fullshadow-lg rounded-lg bg-blue-100 border-2 border-blue-300"
                   >
