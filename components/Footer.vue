@@ -123,7 +123,7 @@
                 </div>
             </div>
             <!-- Copyright Info. -->
-            <div class="items-center justify-center py-6 bg-blue-400 border-t-2 border-blue-200">
+            <div class="items-center justify-center py-6 bg-blue-400">
                 <div class="flex flex-wrap items-center justify-center mx-auto">
                     <p class="mr-5 text-sm text-center text-gray-200">© Your Company — 2021
                     </p>
