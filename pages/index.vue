@@ -69,16 +69,16 @@
           <div class="flex flex-col">
 
             <!-- Vision Section -->
-            <div class="bg-white flex flex-col text-center items-center p-5 rounded-2xl shadow-lg border-2 border-blue-200">
-              <div class="rounded-full bg-blue-400 p-3 px-4 flex shadow-lg border-2 border-blue-500">
-                <fa-icon class="text-2xl text-white" :icon="['fas','award']" />
+            <div class="bg-blue-300 flex flex-col text-center items-center p-5 rounded-2xl shadow-lg border-2 border-blue-200">
+              <div class="rounded-full bg-blue-100 p-3 px-4 flex shadow-lg">
+                <fa-icon class="text-2xl text-blue-400" :icon="['fas','award']" />
               </div>
-              <h6 class="my-5 text-2xl text-gray-700 font-bold uppercase tracking-widest"
+              <h6 class="my-5 text-2xl text-blue-100 font-bold uppercase tracking-widest"
                 >Our Vision
               </h6>
               <hr class="w-11/12 lg:w-2/3 xl:w-5/6 2xl:w-5/6">
               <p 
-                class="mt-5 w-11/12 lg:w-2/3 xl:w-5/6 2xl:w-5/6 text-xl tracking-wide text-gray-600 p-0"
+                class="mt-5 w-11/12 lg:w-2/3 xl:w-5/6 2xl:w-5/6 text-xl tracking-wide text-blue-100 p-0"
                 > To inspire and enable our members to achieve excellence in the sport of swimming. We also want to help our swimmers implement what they learn at practice into daily life.
               </p>
             </div>
@@ -249,96 +249,12 @@
 
       
       <!-- Second Container -->
-      <div class="bg-blue-300 mt-20 lg:mx-0 border-t-2 border-blue-100">
+      <div class="bg-blue-300 mt-20 lg:mx-0">
         <!-- Third Section -->
         <section class="container mx-auto">
           <!-- Flex -->
           <div class="flex flex-col">
-            <!-- Contact Us Container -->
-            <div class="flex flex-col text-center items-center my-10 lg:mt-20">
-              <h2
-                class="text-3xl md:text-4xl lg:text-5xl text-white font-extrabold tracking-widest"
-                >Contact Us
-              </h2>
-              <hr class="my-5 w-11/12 md:w-3/5 lg:w-2/5 xl:w-1/3 2xl:w-1/4">
-              <p
-                class="whitespace-pre-line w-11/12 text-xl lg:text-2xl text-white"
-                >If you would like to contact one of us,
-                please leave your full name, email, along 
-                with a description of the situation and we
-                will get back to you as soon as possible. 
-                Have a good day.
-              </p>
-            </div>
-
-            <!-- Form for sending messages to staff -->
-            <div class="w-full mx-auto px-5 md:px-10 relative md:my-5">
-              <div class="flex flex-wrap justify-center">
-                <div class="w-full lg:w-3/4 xl:w-3/5 2xl:w-2/5 px-0">
-                  <div
-                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100 border-2 border-blue-200"
-                  >
-                    <!-- Text above the inputs -->
-                    <div class="flex-auto p-5 lg:p-10">
-                      <h4 class="text-2xl font-semibold text-gray-700">Want to ask us a question?</h4>
-                      <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                        Complete this form and we will get back to you soon.
-                      </p>
-                      <!-- Area for name -->
-                      <div class="relative w-full mb-3 mt-8">
-                        <label
-                          class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                          for="full-name"
-                          >Full Name</label
-                        ><input
-                          type="text"
-                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-gray-100 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                          placeholder="Full Name"
-                          style="transition: all 0.15s ease 0s;"
-                        />
-                      </div>
-                      <!-- Area for email -->
-                      <div class="relative w-full mb-3">
-                        <label
-                          class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                          for="email"
-                          >Email</label
-                        ><input
-                          type="email"
-                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-gray-100 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                          placeholder="Email"
-                          style="transition: all 0.15s ease 0s;"
-                        />
-                      </div>
-                      <!-- Area for the message -->
-                      <div class="relative w-full mb-3">
-                        <label
-                          class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                          for="message"
-                          >Message</label
-                        ><textarea
-                          rows="4"
-                          cols="80"
-                          class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-gray-100 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                          placeholder="Type a message..."
-                        ></textarea>
-                      </div>
-                      <!-- Button to send message -->
-                      <div class="text-center mt-6">
-                        <button
-                          class="hover:text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-blue-300 hover:from-blue-400 to-blue-200 hover:to-blue-30 focus:ring-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                          type="button"
-                          style="transition: all 0.15s ease 0s;"
-                        >
-                          Send Message
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <!-- Form for sending messages to staff -->
-            </div>
+            
           <!-- Flex -->
           </div>
           <!-- Flex 2 -->
@@ -361,7 +277,7 @@
 			}
 			.carousel-item {
 				-webkit-transition: opacity 0.6s ease-out;
-				transition: opacity 0.6s ease-out;
+				transition: opacity 1.0s ease-out;
 			}
 			#carousel-1:checked ~ .control-1,
 			#carousel-2:checked ~ .control-2,

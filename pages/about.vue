@@ -3,7 +3,7 @@
         <!-- Hero Image at Top -->
         <div class="" style="height:40vh;">
             <div 
-                class="bg-cover bg-fixed bg-center h-full border-b-2 border-t-2 border-blue-400"
+                class="bg-cover bg-fixed bg-center h-full"
                 style='background-image: url("../about.jpg");'
                 >
                 <div class="flex flex-col justify-center items-center h-full bg-black opacity-50">

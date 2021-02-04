@@ -18,11 +18,12 @@
         </div>  
         <!-- Holds Everything Under Hero Image -->
         <div class="shadow-lg flex items-center justify-center py-20 px-6 bg-blue-100">
-             <!-- Form for sending messages to staff -->
+            <!-- Form for sending messages to staff -->
+            <div class="w-full md:w-2/3 lg:w-3/4 xl:w-4/5 2xl:w-5/6 mx-auto px-5 md:px-10 relative md:my-5">
               <div class="flex flex-wrap justify-center">
-                <div class="w-full md:w-2/3 lg:w-3/4 xl:w-4/5 2xl:w-5/6 px-0">
+                <div class="w-full lg:w-3/4 xl:w-3/5 2xl:w-2/5 px-0">
                   <div
-                    class="relative flex flex-col min-w-0 break-words w-fullshadow-lg rounded-lg bg-blue-100 border-2 border-blue-300"
+                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100 border-2 border-blue-200"
                   >
                     <!-- Text above the inputs -->
                     <div class="flex-auto p-5 lg:p-10">
@@ -72,7 +73,7 @@
                       <!-- Button to send message -->
                       <div class="text-center mt-6">
                         <button
-                          class="hover:text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-blue-300 hover:from-blue-400 to-blue-200 hover:to-blue-300 focus:ring-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                          class="hover:text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-blue-300 hover:from-blue-400 to-blue-200 hover:to-blue-30 focus:ring-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                           style="transition: all 0.15s ease 0s;"
                         >
@@ -82,6 +83,7 @@
                     </div>
                   </div>
                 </div>
+              </div>
             <!-- Form for sending messages to staff -->
             </div>
         </div>
