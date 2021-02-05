@@ -42,6 +42,12 @@
             </div>
         </div>
 
+        <div class="bg-blue-200">
+            <div class="h-96">
+
+            </div>
+        </div>
+
 
         <!--    Carousel    -->
       <div class="carousel relative shadow-2xl">
@@ -86,18 +92,7 @@
           <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-500 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
           <label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-500 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
-          <!-- Add additional indicators for each slide-->
-          <ol class="carousel-indicators">
-            <li class="inline-block mr-3 mt-40">
-              <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-600">•</label>
-            </li>
-            <li class="inline-block mr-3">
-              <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-600">•</label>
-            </li>
-            <li class="inline-block mr-3">
-              <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-600">•</label>
-            </li>
-          </ol>
+        
         </div>
       <!-- Carousel -->
       </div>
@@ -106,7 +101,7 @@
       <!-- Second Section -->
         <section class="mt-20 lg:mt-0">
           <!-- Flex -->
-          <div class="flex flex-col lg:flex-row lg:p-10 xl:p-20 bg-blue-300 shadow-xl border-2 border-b-0 border-blue-200 ">
+          <div class="flex flex-col lg:flex-row lg:p-10 xl:p-20 bg-blue-300 shadow-xl">
             <div class="lg:w-4/5 xl:w-full p-4 my-auto lg:mr-10 xl:mr-20">
               <h2
                 class="text-white text-2xl md:text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl lg:tracking-wide 2xl:tracking-widest font-bold tracking-widest text-center"
@@ -204,6 +199,60 @@
             </div>
           <!-- Flex -->
           </div>
+        </section>
+
+        <section class="bg-blue-200">
+             <!-- CEO Contact Information -->
+            <div class="w-full md:w-11/12 lg:w-3/4 xl:w-2/3 py-20 md:mx-auto">
+                <div class="flex flex-col lg:flex-row">
+                <!-- Image -->
+                <div class="flex flex-col lg:flex-row mx-auto">
+                    <img
+                        alt="..."
+                        src="ricky.jpg"
+                        class="shadow-lg rounded-full h-96 w-96 lg:h-64 lg:w-64 2xl:w-72 2xl:h-72 mx-auto lg:ml-0"
+                        style=""
+                    />
+                    <!-- Contact Information -->
+                    <div class="lg:ml-10 text-center lg:text-left flex flex-col my-auto">
+                    <!-- Name/Title -->
+                    <div class="lg:flex">
+                        <div class="mt-10 lg:mt-16">
+                        <h2
+                            class="text-3xl lg:text-xl font-bold text-gray-700"
+                            >Ricky Sanchez
+                        </h2>
+                        <h3
+                            class="text-xl lg:text-base text-gray-500 uppercase font-semibold"
+                            >Founder & Head Coach
+                        </h3>
+                        </div>
+                        <!-- Number/Email -->
+                        <div class="mt-4 lg:mt-16 lg:ml-5 lg:pl-5 lg:border-l-2 lg:border-gray-500">
+                        <h4
+                            class="text-base text-gray-500 font-semibold"
+                            >708-111-1234
+                        </h4>
+                        <NuxtLink
+                            to="/contact"
+                            class="text-base text-gray-500 hover:text-gray-700 font-semibold"
+                            >exampleemail@yahoo.com
+                        </NuxtLink>
+                        </div>
+                    </div>
+                    <!-- Contact Button -->
+                    <div class="text-center  mt-6">
+                        <button
+                        class="hover:text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-b from-blue-300 hover:from-blue-400 to-blue-200 hover:to-blue-300 focus:ring-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-10 py-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                        style="transition: all 0.15s ease 0s;"
+                        >Contact
+                        </button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
         </section>
 
 
