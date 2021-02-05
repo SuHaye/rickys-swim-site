@@ -69,14 +69,6 @@
                       </NuxtLink>
                     </li>
 
-                    <li>
-                      <NuxtLink
-                        to="/"
-                        class="flex items-center mx-3 lg:mx-1 my-2 px-2 lg:py-2 text-white lg:hover:text-white hover:text-gray-300 lg:bg-green-500 lg:rounded-3xl lg:hover:shadow-lg lg:border-2 border-transparent hover:border-white focus:border-gray-200"
-                        >
-                        <fa-icon :icon="['fab','google']" />
-                      </NuxtLink>
-                    </li>
                     
                     <li>
                       <NuxtLink

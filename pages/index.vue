@@ -125,7 +125,8 @@
                   <div class="mb-5 lg:mt-2">
                     <NuxtLink
                       to="/"
-                      class="m-2 md:m-5 lg:mx-3 py-1 px-2 rounded-2xl text-3xl md:text-4xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-white font-bold tracking-widest hover:text-gray-200 focus:text-gray-300 border-2 border-transparent focus:border-white focus:bg-blue-400"
+                      class="m-2 md:m-5 lg:mx-3 py-1 px-2 rounded-2xl text-3xl md:text-4xl lg:text-2xl xl:text-3xl 2xl:text-4xl 
+                      text-white font-bold tracking-widest hover:text-gray-200 focus:text-gray-300 border-2 border-transparent focus:border-white focus:bg-blue-400"
                       >Swimming Events
                     </NuxtLink>
                   </div>
