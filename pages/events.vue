@@ -1,7 +1,7 @@
 <template>
     <div class="">
 
-        <div class="flex flex-col pt-40 bg-blue-200">
+        <div class="flex flex-col pt-40 bg-blue-300">
             <!-- Hero Image at Top -->
             <div class="" style="height:40vh;">
                 <div 
@@ -19,20 +19,21 @@
         </div>
 
 
-        <div class="bg-blue-200">
+        <div class="bg-blue-300">
             <div class="container px-10 mx-auto py-20 xl:w-2/3">
                 <h2
-                    class="text-gray-700 font-bold tracking-widest text-4xl 
+                    class="text-white font-bold tracking-widest text-4xl 
                     mb-3"
                     >Our Programs
                 </h2>
                 <h3
-                    class="text-gray-700 font-semibold tracking-widest text-2xl
+                    class="text-white font-semibold tracking-widest text-2xl
                     mb-10"
                     >Your Child's Potential Awaits
                 </h3>
+                <hr class="pb-5">
                 <p
-                    class="text-xl tracking-wide text-gray-600 text-xl
+                    class="text-xl tracking-wide text-white text-xl
                     mt-5"
                     >Swimming offers many health and safety benefits and we offer a wife variety of swimming programs for all ages. 
                     That includes infant swim lessons, toddler swim lessons, and programs for children between 4 months and 12 
@@ -52,7 +53,7 @@
           <div class="carousel-item absolute opacity-0" style="height:60vh;">
             <div 
               class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
-              style='background-image: url("../slide-one.jpg");'
+              style='background-image: url("../sign.jpg");'
               >
             </div>
           </div>
@@ -65,7 +66,7 @@
           <div class="carousel-item absolute opacity-0" style="height:60vh;">
             <div 
               class="block h-full w-full bg-cover bg-center text-white text-5xl text-center"
-              style='background-image: url("../slide-two.jpg");'
+              style='background-image: url("../swimnews.jpg");'
               >
             </div>
           </div>
@@ -100,6 +101,110 @@
         </div>
       <!-- Carousel -->
       </div>
+
+
+      <!-- Second Section -->
+        <section class="mt-20 lg:mt-0">
+          <!-- Flex -->
+          <div class="flex flex-col lg:flex-row lg:p-10 xl:p-20 bg-blue-300 shadow-xl border-2 border-b-0 border-blue-200 ">
+            <div class="lg:w-4/5 xl:w-full p-4 my-auto lg:mr-10 xl:mr-20">
+              <h2
+                class="text-white text-2xl md:text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl lg:tracking-wide 2xl:tracking-widest font-bold tracking-widest text-center"
+                >Abuse Prevention Program
+              </h2>
+              <hr class="mt-5 lg:mb-5">
+              <p
+                class="text-white font-light text-xl p-5 pb-0 md:pb-2 lg:p-2"
+                >We are committed to providing a healthy and positive environment free from abuse for all its members.  
+                Our Safe Sport program, a comprehensive abuse prevention program, consists of a multi-layered approach
+                to keep kids safe, including: required policies and best practice guidelines; mandatory screening, including 
+                criminal background checks and employment screening; training and education; monitoring, supervision and 
+                mandatory reporting. These measures are informed by experts in the field of child safety and are among the 
+                strongest safeguards found in youth-serving organizations.
+              </p>
+              <div class="flex justify-center">
+                <NuxtLink
+                  to="report"
+                  class="text-gray-100 hover:text-gray-200 text-xl font-bold"
+                  >Report An Abuse
+                  <fa-icon class="text-5xl pt-3" :icon="['fas','hand-point-left']" />
+                </NuxtLink>
+              </div>
+            </div>
+            <!-- Images -->
+            <div class="lg:w-4/5 2xl:w-5/6 lg:px-5">
+              <div 
+                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-b-0 border-blue-200 lg:rounded-t-lg shadow-lg flex flex-col bg-black opacity-80"
+                style='background-image: url("../educate.jpg");'
+                >
+                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
+                    <h2
+                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
+                      >Recognize
+                    </h2>
+                    <p
+                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
+                      >Learn about risks and red flag behaviors.
+                    </p>
+                  </div>
+                  <span class="border-t-2 border-blue-200">
+                    <NuxtLink
+                        to=""
+                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
+                        >Get Educated!
+                    </NuxtLink>
+                  </span>
+              </div>
+              
+              <div 
+                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-blue-200 shadow-lg flex flex-col bg-black opacity-80"
+                style='background-image: url("../action.jpg");'
+                >
+                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
+                    <h2
+                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
+                      >Respond
+                    </h2>
+                    <p
+                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
+                      >Know how to respond to an incident.
+                    </p>
+                  </div>
+                  <span class="border-t-2 border-blue-200">
+                    <NuxtLink
+                        to=""
+                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
+                        >Take Action and Report!
+                    </NuxtLink>
+                  </span>
+              </div>
+              
+              <div 
+                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-blue-200 rounded-b-lg shadow-lg flex flex-col bg-black opacity-80"
+                style='background-image: url("../recover.jpg");'
+                >
+                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
+                    <h2
+                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
+                      >Recover
+                    </h2>
+                    <p
+                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
+                      >Empower survivors with resources.
+                    </p>
+                  </div>
+                  <span class="border-t-2 border-blue-200">
+                    <NuxtLink
+                        to=""
+                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
+                        >Assit With Recovery!
+                    </NuxtLink>
+                  </span>
+              </div>
+            </div>
+          <!-- Flex -->
+          </div>
+        </section>
 
 
     </div>
