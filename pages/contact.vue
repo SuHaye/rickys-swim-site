@@ -1,6 +1,6 @@
 <template>
     <!-- Holds Everything -->
-    <div class="flex flex-col pt-40 bg-blue-200">
+    <div class="flex flex-col pt-40 bg-blue-300">
         <!-- Hero Image at Top -->
         <div class="" style="height:40vh;">
             <div
@@ -17,7 +17,7 @@
             </div>
         </div>  
         <!-- Holds Everything Under Hero Image -->
-        <div class="shadow-lg flex items-center justify-center py-20 px-6 bg-blue-100">
+        <div class="flex items-center justify-center py-20 px-6 bg-gradient-to-b from-blue-300 to-blue-200">
             <!-- Form for sending messages to staff -->
             <div class="w-full md:w-2/3 lg:w-3/4 xl:w-4/5 2xl:w-5/6 mx-auto px-5 md:px-10 relative md:my-5">
               <div class="flex flex-wrap justify-center">
@@ -89,51 +89,53 @@
         </div>
 
       <!-- CEO Contact Information -->
-      <div class="w-full md:w-11/12 lg:w-3/4 xl:w-2/3 my-20 md:mx-auto">
-        <div class="flex flex-col lg:flex-row">
-          <!-- Image -->
-          <div class="flex flex-col lg:flex-row mx-auto">
-            <img
-                alt="..."
-                src="ricky.jpg"
-                class="shadow-lg rounded-full h-96 w-96 lg:h-64 lg:w-64 2xl:w-72 2xl:h-72 mx-auto lg:ml-0"
-                style=""
-              />
-            <!-- Contact Information -->
-            <div class="lg:ml-10 text-center lg:text-left flex flex-col my-auto">
-              <!-- Name/Title -->
-              <div class="lg:flex">
-                <div class="mt-10 lg:mt-16">
-                  <h2
-                    class="text-3xl lg:text-xl font-bold text-gray-700"
-                    >Ricky Sanchez
-                  </h2>
-                  <h3
-                    class="text-xl lg:text-base text-gray-500 uppercase font-semibold"
-                    >Founder & Head Coach
-                  </h3>
+      <div class="bg-gradient-to-b from-blue-200 to-blue-300">
+        <div class="w-full md:w-11/12 lg:w-3/4 xl:w-2/3 my-20 md:mx-auto ">
+          <div class="flex flex-col lg:flex-row">
+            <!-- Image -->
+            <div class="flex flex-col lg:flex-row mx-auto">
+              <img
+                  alt="..."
+                  src="ricky.jpg"
+                  class="shadow-lg rounded-full h-96 w-96 lg:h-64 lg:w-64 2xl:w-72 2xl:h-72 mx-auto lg:ml-0"
+                  style=""
+                />
+              <!-- Contact Information -->
+              <div class="lg:ml-10 text-center lg:text-left flex flex-col my-auto">
+                <!-- Name/Title -->
+                <div class="lg:flex">
+                  <div class="mt-10 lg:mt-16">
+                    <h2
+                      class="text-3xl lg:text-xl font-bold text-gray-700"
+                      >Ricky Sanchez
+                    </h2>
+                    <h3
+                      class="text-xl lg:text-base text-gray-500 uppercase font-semibold"
+                      >Founder & Head Coach
+                    </h3>
+                  </div>
+                  <!-- Number/Email -->
+                  <div class="mt-4 lg:mt-16 lg:ml-5 lg:pl-5 lg:border-l-2 lg:border-gray-500">
+                    <h4
+                      class="text-base text-gray-500 font-semibold"
+                      >708-111-1234
+                    </h4>
+                    <NuxtLink
+                      to="/contact"
+                      class="text-base text-gray-500 hover:text-gray-700 font-semibold"
+                      >exampleemail@yahoo.com
+                    </NuxtLink>
+                  </div>
                 </div>
-                <!-- Number/Email -->
-                <div class="mt-4 lg:mt-16 lg:ml-5 lg:pl-5 lg:border-l-2 lg:border-gray-500">
-                  <h4
-                    class="text-base text-gray-500 font-semibold"
-                    >708-111-1234
-                  </h4>
-                  <NuxtLink
-                    to="/contact"
-                    class="text-base text-gray-500 hover:text-gray-700 font-semibold"
-                    >exampleemail@yahoo.com
-                  </NuxtLink>
+                <!-- Contact Button -->
+                <div class="text-center  mt-6">
+                  <button
+                    class="hover:text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-b from-blue-300 hover:from-blue-400 to-blue-200 hover:to-blue-300 focus:ring-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-10 py-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    style="transition: all 0.15s ease 0s;"
+                    >Contact
+                  </button>
                 </div>
-              </div>
-              <!-- Contact Button -->
-              <div class="text-center  mt-6">
-                <button
-                  class="hover:text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-b from-blue-300 hover:from-blue-400 to-blue-200 hover:to-blue-300 focus:ring-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-10 py-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                  type="button"
-                  style="transition: all 0.15s ease 0s;"
-                  >Contact
-                </button>
               </div>
             </div>
           </div>

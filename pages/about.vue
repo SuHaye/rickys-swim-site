@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col pt-40 bg-blue-200">
+    <div class="flex flex-col pt-40 bg-blue-300">
         <!-- Hero Image at Top -->
         <div class="" style="height:40vh;">
             <div 
@@ -13,23 +13,48 @@
                     </h2>
                 </div>
             </div>
-        </div>  
-        <!-- Holds Everything Under Hero Image -->
-        <div class="shadow-lg rounded-lg border-2 border-blue-300 flex items-center justify-center px-6">
+        </div>
+        <!-- Intro of the company -->
+        <section>
+            <!-- Intro of the company -->
+            <div class="py-24 bg-gradient-to-b from-blue-300 to-blue-200">
+              <h2
+                class="text-center text-4xl font-light tracking-widest lg:tracking-wider xl:traciking-widest uppercase text-white"
+                >Our Story
+              </h2>
+              <p
+                class="text-center text-lg leading-relaxed m-4 text-white w-3/4 mx-auto"
+                >Maveric's Swim Acedamy was born when Ricky Sanchez realized the demand for quality swim instruction
+                after teaching swim lessons at a local swim club for the past few summers. He became determined to
+                help children achieve excellences in the sport of swimming. Maveric's Swim Acedamy inspires and enables
+                our members to excell in more than just swimming. 
+              </p>
+              <img 
+                src="../static/about2.jpg" 
+                alt=""
+                class="h-96 mt-16 w-5/6 lg:w-1/2 mx-auto rounded-2xl shadow-xl"
+              >
+            </div>
+        </section>
+
+        <div class="shadow-md rounded-lg bg-blue-200 flex items-center justify-center px-6 bg-gradient-to-b from-blue-200 to-blue-300">
             <!-- Members of the Team -->
             <section class="my-20">
-              <div class="container mx-auto bg-blue-00 p-10">
+              <div class="container mx-auto p-10">
                 <div class=" flex flex-wrap justify-center text-center mb-24">
                   <div class="w-full lg:w-7/12 px-4">
-                    <h2 class="text-4xl font-light tracking-widest lg:tracking-wider xl:traciking-widest uppercase text-gray-800">Here are <span class="block sm:inline-block">our heroes</span></h2>
-                    <p class="lg:whitespace-normal text-lg leading-relaxed m-4 text-gray-800">
+                    <h2 
+                      class="text-4xl font-light tracking-widest lg:tracking-wider xl:traciking-widest uppercase text-white"
+                      >Here are <span class="block sm:inline-block">our heroes</span>
+                    </h2>
+                    <p class="lg:whitespace-normal text-lg leading-relaxed m-4 text-white">
                       Our vision is to inspire and enable 
                       our members to achieve excellence 
                       in the sport of swimming and in life. 
                     </p>
                   </div>
                 </div>
-                <div class="flex flex-wrap ">
+                <div class="flex flex-wrap text-white">
                   <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
                     <div class="px-6">
                       <img
@@ -40,7 +65,7 @@
                       />
                       <div class="pt-6 text-center">
                         <h5 class="text-xl font-bold">Ricky Sanchez</h5>
-                        <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        <p class="mt-1 text-sm text-gray-100 uppercase font-semibold">
                           Founder <span class="block">& Head Couch</span>
                         </p>
                         <div class="mt-6">
@@ -74,7 +99,7 @@
                       />
                       <div class="pt-6 text-center">
                         <h5 class="text-xl font-bold">Patrick Suchy</h5>
-                        <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        <p class="mt-1 text-sm text-gray-100 uppercase font-semibold">
                           Web Developer <span class="block">& UI/UX Designer</span>
                         </p>
                         <div class="mt-6">
@@ -108,7 +133,7 @@
                       />
                       <div class="pt-6 text-center">
                         <h5 class="text-xl font-bold">Piotr Senkow</h5>
-                        <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        <p class="mt-1 text-sm text-gray-100 uppercase font-semibold">
                           Software Engineer <span class="block">& Web Developer</span>
                         </p>
                         <div class="mt-6">
@@ -142,7 +167,7 @@
                       />
                       <div class="pt-6 text-center">
                         <h5 class="text-xl font-bold">Samit Minhas</h5>
-                        <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                        <p class="mt-1 text-sm text-gray-100 uppercase font-semibold">
                           Patent Lawyer <span class="block">& Finance Advisor</span>
                         </p>
                         <div class="mt-6">
