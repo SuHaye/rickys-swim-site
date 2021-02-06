@@ -19,7 +19,7 @@
             <!-- Intro of the company -->
             <div class="py-24 bg-gradient-to-b from-blue-300 to-blue-200">
               <h2
-                class="text-center text-4xl font-light tracking-widest lg:tracking-wider xl:traciking-widest uppercase text-white"
+                class="text-center text-4xl tracking-widest lg:tracking-wider xl:traciking-widest uppercase text-white font-bold"
                 >Our Story
               </h2>
               <p
@@ -37,14 +37,14 @@
             </div>
         </section>
 
-        <div class="shadow-md rounded-lg bg-blue-200 flex items-center justify-center px-6 bg-gradient-to-b from-blue-200 to-blue-300">
+        <div class=" rounded-lg bg-blue-200 flex items-center justify-center px-6 bg-gradient-to-b from-blue-200 to-blue-300">
             <!-- Members of the Team -->
             <section class="my-20">
               <div class="container mx-auto p-10">
                 <div class=" flex flex-wrap justify-center text-center mb-24">
                   <div class="w-full lg:w-7/12 px-4">
                     <h2 
-                      class="text-4xl font-light tracking-widest lg:tracking-wider xl:traciking-widest uppercase text-white"
+                      class="text-4xl font-semibold tracking-widest lg:tracking-wider xl:traciking-widest uppercase text-white"
                       >Here are <span class="block sm:inline-block">our heroes</span>
                     </h2>
                     <p class="lg:whitespace-normal text-lg leading-relaxed m-4 text-white">

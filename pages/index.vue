@@ -62,14 +62,11 @@
       </div>
 
       <!-- First Container -->
-      <div class="bg-blue-100 mt-20 py-10 p-5 lg:px-10 md:rounded-xl shadow-lg md:mx-4 lg:mx-5 border-2 border-blue-200">
+      <div class="bg-gradient-to-b from-blue-100 to-blue-200 py-40">
         <!-- First Section -->
         <section class="container mx-auto">
-          <!-- Flex -->
-          <div class="flex flex-col">
-
             <!-- Vision Section -->
-            <div class="bg-blue-300 flex flex-col text-center items-center p-5 rounded-2xl shadow-lg border-2 border-blue-200">
+            <div class="bg-blue-300 flex flex-col text-center items-center p-5 rounded-lg shadow-lg">
               <div class="rounded-full bg-blue-100 p-3 px-4 flex shadow-lg">
                 <fa-icon class="text-2xl text-blue-400" :icon="['fas','award']" />
               </div>
@@ -82,11 +79,16 @@
                 > To inspire and enable our members to achieve excellence in the sport of swimming. We also want to help our swimmers implement what they learn at practice into daily life.
               </p>
             </div>
-            <!-- Swimming Through a Crisis/ Swim News -->
-            <div class="flex flex-col lg:flex-row mt-20 lg:p-10 xl:p-20">
+        <!-- First Section -->
+        </section>
+      <!-- First Container -->
+      </div>
+
+      <!-- Swimming Through a Crisis/ Swim News -->
+            <div class="flex flex-col lg:flex-row mt-20 lg:p-10 xl:p-20 bg-gradient-to-b from-blue-200 to-blue-300">
               <!-- Left Side -->
               <div class="flex flex-col mb-20 lg:mb-0">
-                <div class="rounded-full bg-white p-4 flex shadow-lg w-min mb-6 border-2 border-blue-300">
+                <div class="rounded-full bg-white p-4 flex shadow-lg w-min mb-6">
                   <fa-icon class="text-2xl text-blue-400 " :icon="['fas','clinic-medical']" />
                 </div>
                 <h3
@@ -138,15 +140,11 @@
                 </div>
               </div>
             </div>
-          <!-- Flex -->
-          </div>
-        <!-- First Section -->
-        </section>
-        <hr class="h-1 bg-blue-200 my-20 lg:hidden">
-        <!-- Second Section -->
+
+      <!-- Second Section -->
         <section class="mt-20 lg:mt-0">
           <!-- Flex -->
-          <div class="flex flex-col lg:flex-row lg:p-10 xl:p-20 bg-blue-300 rounded-2xl shadow-xl border-2 border-b-0 border-blue-200 ">
+          <div class="flex flex-col lg:flex-row lg:p-10 xl:p-20 bg-blue-300">
             <div class="lg:w-4/5 xl:w-full p-4 my-auto lg:mr-10 xl:mr-20">
               <h2
                 class="text-white text-2xl md:text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl lg:tracking-wide 2xl:tracking-widest font-bold tracking-widest text-center"
@@ -245,26 +243,6 @@
           <!-- Flex -->
           </div>
         </section>
-      <!-- First Container -->
-      </div>
-
-      
-      <!-- Second Container -->
-      <div class="bg-blue-300 mt-20 lg:mx-0">
-        <!-- Third Section -->
-        <section class="container mx-auto">
-          <!-- Flex -->
-          <div class="flex flex-col">
-            
-          <!-- Flex -->
-          </div>
-          <!-- Flex 2 -->
-          <div class="flex flex-col">
-            
-          </div>
-        </section>
-      <!-- Second Container -->
-      </div>
     <!-- Holds Everything -->
     </div>
 

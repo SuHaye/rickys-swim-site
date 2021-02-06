@@ -106,23 +106,23 @@
                 <div class="lg:flex">
                   <div class="mt-10 lg:mt-16">
                     <h2
-                      class="text-3xl lg:text-xl font-bold text-gray-700"
+                      class="text-3xl lg:text-xl font-bold text-white"
                       >Ricky Sanchez
                     </h2>
                     <h3
-                      class="text-xl lg:text-base text-gray-500 uppercase font-semibold"
+                      class="text-xl lg:text-base text-gray-100 uppercase font-semibold"
                       >Founder & Head Coach
                     </h3>
                   </div>
                   <!-- Number/Email -->
-                  <div class="mt-4 lg:mt-16 lg:ml-5 lg:pl-5 lg:border-l-2 lg:border-gray-500">
+                  <div class="mt-4 lg:mt-16 lg:ml-5 lg:pl-5 lg:border-l-2 lg:border-gray-100">
                     <h4
-                      class="text-base text-gray-500 font-semibold"
+                      class="text-base text-gray-100 font-semibold"
                       >708-111-1234
                     </h4>
                     <NuxtLink
                       to="/contact"
-                      class="text-base text-gray-500 hover:text-gray-700 font-semibold"
+                      class="text-base text-gray-100 hover:text-gray-200 font-semibold"
                       >exampleemail@yahoo.com
                     </NuxtLink>
                   </div>
@@ -130,7 +130,9 @@
                 <!-- Contact Button -->
                 <div class="text-center  mt-6">
                   <button
-                    class="hover:text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-b from-blue-300 hover:from-blue-400 to-blue-200 hover:to-blue-300 focus:ring-blue-200 focus:text-blue-100 text-gray-600 active:bg-gray-700 text-sm font-bold uppercase px-10 py-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    class="hover:text-white transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-b from-blue-300 
+                    hover:from-blue-400 to-blue-200 hover:to-blue-300 focus:ring-blue-200 focus:text-blue-100 text-gray-100 active:bg-gray-700 text-sm 
+                    font-bold uppercase px-10 py-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                     type="button"
                     style="transition: all 0.15s ease 0s;"
                     >Contact
