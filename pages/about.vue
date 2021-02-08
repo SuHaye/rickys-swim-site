@@ -23,7 +23,7 @@
                 >Our Story
               </h2>
               <p
-                class="text-center text-lg leading-relaxed m-4 text-white w-3/4 mx-auto"
+                class="text-center text-lg lg:text-xl leading-relaxed m-4 text-white w-3/4 mx-auto"
                 >Maveric's Swim Acedamy was born when Ricky Sanchez realized the demand for quality swim instruction
                 after teaching swim lessons at a local swim club for the past few summers. He became determined to
                 help children achieve excellences in the sport of swimming. Maveric's Swim Acedamy inspires and enables
@@ -47,7 +47,7 @@
                       class="text-4xl font-semibold tracking-widest lg:tracking-wider xl:traciking-widest uppercase text-white"
                       >Here are <span class="block sm:inline-block">our heroes</span>
                     </h2>
-                    <p class="lg:whitespace-normal text-lg leading-relaxed m-4 text-white">
+                    <p class="lg:whitespace-normal text-lg lg:text-xl leading-relaxed m-4 text-white">
                       Our vision is to inspire and enable 
                       our members to achieve excellence 
                       in the sport of swimming and in life. 

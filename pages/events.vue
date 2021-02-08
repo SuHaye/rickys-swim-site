@@ -105,7 +105,7 @@
             <div class="lg:w-4/5 xl:w-full p-4 my-auto mx-auto">
               <h2
                 class="text-white text-2xl md:text-4xl lg:text-5xl lg:tracking-wide 2xl:tracking-widest font-bold tracking-widest text-center pt-10"
-                >Abuse Prevention Program
+                >How We Structure Our Curriculum
               </h2>
               <hr class="mt-5 lg:mb-5 w-full sm:w-5/6 lg:w-full mx-auto">
               <p
