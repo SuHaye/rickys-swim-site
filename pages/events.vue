@@ -131,7 +131,7 @@
           </div>
         </section>
 
-        <section class="bg-gradient-to-b from-blue-200 to-blue-200">
+        <section class="bg-gradient-to-b from-blue-200 to-blue-300">
              <!-- CEO Contact Information -->
             <div class="w-full md:w-11/12 lg:w-3/4 xl:w-2/3 py-20 pb-40 md:mx-auto">
                 <div class="flex flex-col lg:flex-row">

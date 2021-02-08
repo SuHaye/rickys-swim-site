@@ -1,5 +1,5 @@
     <template>
-        <footer class="text-gray-600 bg-gradient-to-b from-blue-300 to-blue-200 pt-10">
+        <footer class="text-gray-600 bg-gradient-to-b from-blue-300 to-blue-200 pt-10 border-t-2 border-gray-200">
             <div class="container mx-auto px-5 lg:pb-10">
                 <!-- Flex -->
                 <div class="flex flex-col lg:flex-row">

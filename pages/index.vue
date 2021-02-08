@@ -61,188 +61,100 @@
       <!-- Carousel -->
       </div>
 
-      <!-- First Container -->
-      <div class="bg-gradient-to-b from-blue-100 to-blue-200 py-40">
-        <!-- First Section -->
-        <section class="container mx-auto">
-            <!-- Vision Section -->
-            <div class="bg-blue-300 flex flex-col text-center items-center p-5 rounded-lg shadow-lg">
-              <div class="rounded-full bg-blue-100 p-3 px-4 flex shadow-lg">
-                <fa-icon class="text-2xl text-blue-400" :icon="['fas','award']" />
-              </div>
-              <h6 class="my-5 text-2xl text-blue-100 font-bold uppercase tracking-widest"
-                >Our Vision
-              </h6>
-              <hr class="w-11/12 lg:w-2/3 xl:w-5/6 2xl:w-5/6">
-              <p 
-                class="mt-5 w-11/12 lg:w-2/3 xl:w-5/6 2xl:w-5/6 text-xl tracking-wide text-blue-100 p-0"
-                > To inspire and enable our members to achieve excellence in the sport of swimming. We also want to help our swimmers implement what they learn at practice into daily life.
-              </p>
+      <!-- Holds everything under Carousel -->
+      <div class="">
+        <!-- Our Vision Section -->
+        <section>
+          <div class="text-center text-white px-10 pt-20 pb-10 items-center flex flex-col bg-gradient-to-b from-blue-300 to-blue-200">
+            <div class="bg-blue-200 rounded-full p-3 px-4 w-min mb-5">
+              <fa-icon class="text-5xl" :icon="['fas','award']" />
             </div>
-        <!-- First Section -->
+            <h2
+              class="text-4xl sm:text-5xl font-semibold tracking-widest"
+              >Our Vision
+            </h2>
+            <hr class="w-full sm:w-5/6 md:w-3/4 lg:w-2/3 xl:w-1/2 2xl:w-2/5 mx-auto my-5">
+            <p
+              class="whitespace-pre-line px-2 text-2xl sm:text-3xl"
+              >To inspire and enable our members 
+              to achieve excellence in the sport of 
+              swimming. We also want to help 
+              our swimmers implement what they 
+              learn at practice into daily life.
+            </p>
+          </div>
         </section>
-      <!-- First Container -->
-      </div>
 
-      <!-- Swimming Through a Crisis/ Swim News -->
-            <div class="flex flex-col lg:flex-row mt-20 lg:p-10 xl:p-20 bg-gradient-to-b from-blue-200 to-blue-300">
-              <!-- Left Side -->
-              <div class="flex flex-col mb-20 lg:mb-0">
-                <div class="rounded-full bg-white p-4 flex shadow-lg w-min mb-6">
-                  <fa-icon class="text-2xl text-blue-400 " :icon="['fas','clinic-medical']" />
+        <!-- COVID Information Section -->
+        <section>
+          <div class="bg-gradient-to-b from-blue-200 to-blue-300 px-10 p-20 flex flex-col lg:flex-row">
+             <!-- Left Side -->
+             <div class="lg:w-11/12 xl:w-1/2">
+                <div class="flex flex-col items-center">
+                  <div class="rounded-full bg-white p-3 shadow-lg w-min">
+                    <fa-icon class="text-2xl text-blue-300" :icon="['fas','clinic-medical']" />
+                  </div>
+                  <h3
+                    class="mt-5 text-center text-white font-bold tracking-widest text-2xl sm:text-3xl md:text-4xl lg:text-3xl 2xl:text-4xl"
+                    >Swimming Through A Crisis
+                  </h3>
                 </div>
-                <h3
-                  class="text-2xl lg:text-3xl xl:text-4xl text-gray-700 font-bold tracking-widest mb-5"
-                  >Swimming Through A Crisis
-                </h3>
-                <hr class="w-11/12 lg:w-3/4 xl:w-5/6 my-2">
-                <div class="w-11/12 lg:w-3/4 xl:w-5/6 2xl:w-5/6">
+                <hr class="my-10 w-full sm:w-11/12 md:w-3/4 lg:w-11/12 xl:w-5/6 my-2 mx-auto">
+                <div class="text-white text-center lg:text-justify text-xl sm:text-2xl 2xl:text-3xl items-center flex flex-col">
                   <p
-                    class="text-xl tracking-wide text-gray-600 mt-5"
-                    >Help your swimmers through this pandemic with various resources for members 
-                    and guidelines to open up your facilities. Learn about federal and state programs 
-                    for small business support, and stay connected to the sport with wevinars and podcasts.
+                    class="whitespace-pre-line"
+                    >Help your swimmers through this pandemic 
+                    with various resources for members and 
+                    guidelines to open up your facilities. Learn 
+                    about federal and state programs for small 
+                    business support, and stay connected to the 
+                    sport with webinars and podcasts.
                   </p>
                   <p
-                    class="text-xl tracking-wide text-gray-600 my-5"
-                    >We continue to stress the importance of preventing the spread of infection and ask for you to follow the information being circulated by healthcare officials.
+                    class="whitespace-pre-line my-5"
+                    >We continue to stress the importance of 
+                    preventing the spread of infection and ask 
+                    for you to follow the information being 
+                    circulated by healthcare officials.
                   </p>
-                  <div class="mt-8 mb-5 2xl:mt-16">
+                  <div class="">
                     <a
                       href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"
-                      class=" py-1 px-2 text-xl font-semibold tracking-wide text-gray-700 hover:text-black border-2 border-transparent rounded-2xl focus:border-blue-500 focus:text-black focus:bg-blue-200"
+                      class="text-2xl font-semibold text-left tracking-wide text-gray-100 hover:text-gray-400"
                       >Covid-19 Information
                     </a>
                   </div>
                 </div>
-              </div>
+             </div>
               <!-- Right Side -->
-              <div class="lg:my-auto">
-                <div class="flex flex-col bg-blue-300 rounded-2xl shadow-lg border-2 border-blue-200">
+              <div class="lg:w-2/3 xl:w-1/2 lg:my-auto my-20">
+                <div class="text-white">
                   <img
-                    alt="..."
-                    src="../static/swimnews.jpg"
-                    class="m-5 lg:m-2 mb-5 rounded-xl shadow-lg border-2 border-blue-200"
+                    alt=""
+                    src="swimnews.jpg"
+                    class="h-60 rounded-xl shadow-lg mb-2 mx-auto"
                   />
-                  <div class="mb-5 lg:mt-2">
-                    <NuxtLink
-                      to="/"
-                      class="m-2 md:m-5 lg:mx-3 py-1 px-2 rounded-2xl text-3xl md:text-4xl lg:text-2xl xl:text-3xl 2xl:text-4xl 
-                      text-white font-bold tracking-widest hover:text-gray-200 focus:text-gray-300 border-2 border-transparent focus:border-white focus:bg-blue-400"
-                      >Swimming Events
-                    </NuxtLink>
+                  <div class="px-5">
+                    <div class="text-center mt-5 lg:mt-5">
+                      <NuxtLink
+                        to="/"
+                        class="text-3xl sm:text-4xl lg:text-4xl xl:text-4xl hover:text-gray-400 tracking-wider"
+                        >Swimming Events
+                      </NuxtLink>
+                    </div>
+                    <hr class="my-10 lg:my-5 w-full sm:w-11/12 lg:w-11/12 xl:w-5/6 2xl:w-2/3 mx-auto">
+                    <p
+                      class="whitespace-pre-line text-xl sm:text-2xl lg:text-lg xl:text-2xl text-center"
+                      >Check out the latest news and important 
+                      updates from the organization, tips for 
+                      training, and any upcoming events.
+                    </p>
                   </div>
-                  <hr class="mx-5 mb-5 w-5/6 md:w-5/6 lg:w-5/6 2xl:w-5/6">
-                  <p
-                    class="px-4 lg:pr-5 lg:pl-1 w-5/6 md:w-11/12 lg:w-11/12 2xl:w-11/12 mx-2 lg:mx-5 mb-8 text-xl tracking-wide text-gray-100"
-                    >Check out the latest news and important updates from the organization, tips for training, and any upcoming events.
-                  </p>
                 </div>
               </div>
             </div>
-
-      <!-- Second Section -->
-        <section class="mt-20 lg:mt-0">
-          <!-- Flex -->
-          <div class="flex flex-col lg:flex-row lg:p-10 xl:p-20 bg-blue-300">
-            <div class="lg:w-4/5 xl:w-full p-4 my-auto lg:mr-10 xl:mr-20">
-              <h2
-                class="text-white text-2xl md:text-3xl lg:text-2xl xl:text-3xl 2xl:text-4xl lg:tracking-wide 2xl:tracking-widest font-bold tracking-widest text-center"
-                >Abuse Prevention Program
-              </h2>
-              <hr class="mt-5 lg:mb-5">
-              <p
-                class="text-white font-light text-xl p-5 pb-0 md:pb-2 lg:p-2"
-                >We are committed to providing a healthy and positive environment free from abuse for all its members.  
-                Our Safe Sport program, a comprehensive abuse prevention program, consists of a multi-layered approach
-                to keep kids safe, including: required policies and best practice guidelines; mandatory screening, including 
-                criminal background checks and employment screening; training and education; monitoring, supervision and 
-                mandatory reporting. These measures are informed by experts in the field of child safety and are among the 
-                strongest safeguards found in youth-serving organizations.
-              </p>
-              <div class="flex justify-center">
-                <NuxtLink
-                  to="report"
-                  class="text-gray-100 hover:text-gray-200 text-xl font-bold"
-                  >Report An Abuse
-                  <fa-icon class="text-5xl pt-3" :icon="['fas','hand-point-left']" />
-                </NuxtLink>
-              </div>
-            </div>
-            <!-- Images -->
-            <div class="lg:w-4/5 2xl:w-5/6 lg:px-5">
-              <div 
-                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-b-0 border-blue-200 lg:rounded-t-lg shadow-lg flex flex-col bg-black opacity-80"
-                style='background-image: url("../educate.jpg");'
-                >
-                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
-                    <h2
-                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
-                      >Recognize
-                    </h2>
-                    <p
-                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
-                      >Learn about risks and red flag behaviors.
-                    </p>
-                  </div>
-                  <span class="border-t-2 border-blue-200">
-                    <NuxtLink
-                        to=""
-                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
-                        >Get Educated!
-                    </NuxtLink>
-                  </span>
-              </div>
-              
-              <div 
-                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-blue-200 shadow-lg flex flex-col bg-black opacity-80"
-                style='background-image: url("../action.jpg");'
-                >
-                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
-                    <h2
-                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
-                      >Respond
-                    </h2>
-                    <p
-                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
-                      >Know how to respond to an incident.
-                    </p>
-                  </div>
-                  <span class="border-t-2 border-blue-200">
-                    <NuxtLink
-                        to=""
-                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
-                        >Take Action and Report!
-                    </NuxtLink>
-                  </span>
-              </div>
-              
-              <div 
-                class="bg-cover bg-center h-80 w-full lg:h-56 border-2 border-blue-200 rounded-b-lg shadow-lg flex flex-col bg-black opacity-80"
-                style='background-image: url("../recover.jpg");'
-                >
-                  <div class="m-auto flex flex-col items-center pt-4 lg:pt-2">
-                    <h2
-                      class="text-gray-900 text-bold tracking-widest text-4xl md:text-5xl lg:text-3xl uppercase"
-                      >Recover
-                    </h2>
-                    <p
-                      class="text-center text-black text-black tracking-wider lg:tracking-normal text-lg md:text-2xl lg:text-base 2xl:text-lg"
-                      >Empower survivors with resources.
-                    </p>
-                  </div>
-                  <span class="border-t-2 border-blue-200">
-                    <NuxtLink
-                        to=""
-                        class="text-2xl lg:text-xl tracking-widest font-bold justify-center flex text-white py-4 lg:py-2 opacity-70 bg-blue-300 hover:bg-blue-400 hover:text-black hover:shadow-2xl"
-                        >Assit With Recovery!
-                    </NuxtLink>
-                  </span>
-              </div>
-            </div>
-          <!-- Flex -->
-          </div>
         </section>
+      </div>
     <!-- Holds Everything -->
     </div>
 
