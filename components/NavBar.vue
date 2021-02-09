@@ -137,6 +137,11 @@ export default {
       this.showMenu = !this.showMenu;
     },
     
+  },
+  watch: {
+    '$route' () {
+      this.showMenu = false
+    }
   }
 }
 </script>

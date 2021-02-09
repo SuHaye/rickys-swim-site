@@ -101,7 +101,7 @@
       <!-- Second Section -->
         <section class="mt-0">
           <!-- Flex -->
-          <div class="flex flex-col lg:p-10 lg:py-40 xl:p-20 xl:py-40 bg-gradient-to-b from-blue-300 to-blue-200 shadow-xl py-20">
+          <div class="flex flex-col lg:p-20 bg-gradient-to-b from-blue-300 to-blue-200 shadow-xl py-20">
             <div class="lg:w-4/5 xl:w-full p-4 my-auto mx-auto">
               <h2
                 class="text-white text-2xl md:text-4xl lg:text-5xl lg:tracking-wide 2xl:tracking-widest font-bold tracking-widest text-center pt-10"
