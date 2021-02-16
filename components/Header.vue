@@ -32,28 +32,28 @@
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-1 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
-                        to="/events"
+                        to="/contact"
                         >CONTACT
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-1 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
-                        to="/about"
+                        to="/events"
                         >EVENTS
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-1 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
-                        to="/practice"
+                        to="/about"
                         >ABOUT US
                         </NuxtLink>
                     </li>
                     <li class="">
                         <NuxtLink 
                         class="flex items-center lg:mx-6 lg:mr-1 lg:ml-1 my-2 px-5 lg:px-1 lg:py-2 text-md font-bold text-white hover:text-gray-300" 
-                        to="/practice"
+                        to="/safe"
                         >SAFE SPORT
                         </NuxtLink>
                     </li>
@@ -115,7 +115,7 @@
         </div>
 
         <!-- Login Section of Header -->
-        <div class="px-40 bg-white w-full shadow-md hover:shadow-lg hidden lg:block">
+        <div class="px-40 bg-white w-full shadow-md hover:shadow-lg hidden lg:block rounded-b-lg">
             <ul class="flex flex-row tracking-widest">
                 <span class="flex flex-col lg:flex-row">
                 <hr class="w-11/12 lg:hidden my-2">
