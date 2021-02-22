@@ -11,7 +11,8 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dekko&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Chilanka&display=swap'} 
     ]
   },
 
@@ -41,7 +42,7 @@ export default {
     component: 'fa',
     suffix: true,
     icons: {
-      solid: ['faUserAlt', 'faUserPlus', 'faBars', 'faAward','faClinicMedical','faHandPointLeft','faChevronRight','faChevronLeft'],
+      solid: ['faUserAlt', 'faUserPlus', 'faBars', 'faAward','faClinicMedical','faHandPointLeft','faChevronRight','faChevronLeft','faCheck'],
       brands: ['faTwitter', 'faGoogle', 'faFacebook', 'faInstagram']
     }
   },

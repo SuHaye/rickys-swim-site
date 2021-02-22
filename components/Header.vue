@@ -1,7 +1,7 @@
 <template>
 
     <!-- Main Nav Container -->
-    <nav class="z-40 h-auto w-full bg-blue-400 flex flex-wrap items-center justify-between navbar-expand-lg fixed">
+    <nav class="z-40 h-auto w-full bg-blue-400 flex flex-wrap items-center justify-between navbar-expand-lg relative">
         <!-- Container Holds All of the Content -->
         <div class="xl:px-20 px-5 mx-0 z-50 w-full flex flex-wrap items-center pt-2 rounded-b-xl bg-blue-400 shadow-md hover:shadow-lg"
         v-bind:class="{'bg-transparent': !showMenu, 'bg-gray-700': showMenu}">
@@ -25,7 +25,7 @@
             <!-- Content on Right Side of Screen -->
             <div 
             v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" 
-            class="lg:flex lg:flex-grow flex-col 2xl:text-xl mx-5 w-full lg:w-1/3 2xl:w-1/2 items-end pb-5"
+            class="lg:flex lg:flex-grow flex-col 2xl:text-xl mx-5 w-full lg:w-1/3 2xl:w-1/2 items-end pb-5 lg:pb-0"
             >
                 <!-- List of Links -->
                 <ul class="flex flex-col lg:flex-row-reverse tracking-widest items-end w-full">
