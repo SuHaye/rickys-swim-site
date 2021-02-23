@@ -115,7 +115,7 @@
         </div>
 
         <!-- Login Section of Header -->
-        <div class="px-40 bg-white w-full shadow-md hover:shadow-lg hidden lg:block rounded-b-lg">
+        <div class="px-40 bg-blue-200 w-full shadow-md hover:shadow-lg hidden lg:block rounded-b-lg">
             <ul class="flex flex-row tracking-widest">
                 <span class="flex flex-col lg:flex-row">
                 <hr class="w-11/12 lg:hidden my-2">

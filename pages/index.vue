@@ -1,8 +1,51 @@
 <template>
     <div class="relative">
 
+        <!-- Hero Image -->
+        <section class="py-10">
+            <div class="hero bg-cover bg-center shadow-2xl relative">
+                <!-- Background Opacity -->
+                <div 
+                    class="bg-black opacity-60 w-full h-full absolute"
+                    >
+                </div>
+                <div class="text-white absolute h-full w-full">
+                    <div class="flex flex-col mx-auto lg:mx-20 h-full">
+                        <div class="my-auto text-center lg:text-left mx-auto lg:mx-10 xl:mx-28 2xl:mx-64">
+                            <h2
+                                class="text-5xl md:text-6xl xl:text-7xl uppercase font-semibold lg:whitespace-pre-line"
+                                >Swim With 
+                                Excellence
+                            </h2>
+                            <p
+                                class="subtext text-2xl md:text-4xl mb-10 font-semibold lg:tracking-wider lg:whitespace-pre-line lg:mt-5"
+                                >Learn what sets us 
+                                apart from average.
+                            </p>
+                            <p
+                                class="subtext text-xl md:text-2xl whitespace-pre-line tracking-wide font-semibold"
+                                >Register to stay updated and 
+                                allow us to help stay organized.
+                            </p>
+                            <div class="mt-10 subtext lg:w-max">
+                                <NuxtLink
+                                    to="/sign"
+                                    class="text-2xl md:text-3xl lg:text-2xl xl:text-3xl uppercase font-semibold bg-gradient-to-l 
+                                    from-blue-600 to-blue-400 px-20 pt-4 pb-2 rounded-3xl lg:px-28 xl:px-24
+                                    hover:text-gray-300 hover:underline hover:shadow-xl"
+                                    >Register
+                                </NuxtLink>
+                            </div>
+                        </div>
+                    </div>
+                            
+
+                </div>
+            </div>
+        </section>
+
         <!-- Vision Section -->
-        <section class="bg-gradient-to-b from-blue-300 to-blue-500">
+        <section class="bg-gradient-to-l from-blue-300 to-blue-500">
             <div class="flex flex-row h-100vh pt-20 container mx-auto xl:pr-10 2xl:pr-20">
                 <div class="flex flex-col container mx-auto text-white px-5 lg:px-0">
                     <!-- Vision -->
@@ -78,8 +121,8 @@
         </section>
 
         <!-- COVID Info Section  -->
-        <section class="bg-gradient-to-b from-blue-500 to-blue-400">
-            <div class="container mx-auto h-100vh text-white pt-24 md:pt-20 pb-10">
+        <section class="bg-gray-200">
+            <div class="container mx-auto h-100vh text-black pt-24 md:pt-20 pb-20">
                 <div class="flex flex-col">
                     <img 
                         src="covid.jpg" 
@@ -87,22 +130,23 @@
                         class="w-5/6 md:w-4/5 lg:w-3/5 xl:w-1/2 2xl:w-2/5 mx-auto rounded-xl shadow-xl"
                     >
                     <h2
-                        class="mt-16 md:mt-12 uppercase font-bold text-4xl md:text-5xl xl:text-6xl tracking-wide 
-                        md:tracking-wider border-b-2 border-white mx-10 pb-5 mb-5 mx-auto"
+                        class="mt-16 md:mt-12 font-semibold text-4xl md:text-5xl xl:text-6xl tracking-wide 
+                        md:tracking-wider border-b-2 border-black mx-10 pb-5 mb-5 mx-auto"
                         >Swimming Through A Crisis
                     </h2>
                     <div class="subtext px-4 mx-auto">
                         <p
-                            class="font-medium text-xl md:text-2xl xl:text-3xl tracking-wide px-5 py-5 xl:py-4 whitespace-pre-line"
+                            class="font-medium text-gray-800 text-xl md:text-2xl xl:text-3xl tracking-wide 
+                            px-5 py-5 xl:py-4 whitespace-pre-line"
                             >Help your swimmers through this pandemic 
                             with various resources for members and 
                             guidelines to open up your facilities. Learn 
                             about federal and state programs for small 
-                            business support, and stay connected to 
-                            the sport with webinars and podcasts.
+                            business support, and stay connected.
                         </p>
                         <p
-                            class="font-medium text-xl md:text-2xl xl:text-3xl tracking-wide px-5 py-5 xl:py-4 whitespace-pre-line"
+                            class="font-medium text-gray-800 text-xl md:text-2xl xl:text-3xl tracking-wide 
+                            px-5 py-5 xl:py-4 whitespace-pre-line"
                             >We continue to stress the importance of 
                             preventing the spread of infection and 
                             ask for you to follow the information 
@@ -113,7 +157,7 @@
                         <a
                             href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"
                             class="subtext text-2xl md:text-3xl font-semibold tracking-wide 
-                            uppercase hover:text-gray-300 hover:underline"
+                            uppercase text-gray-700 hover:text-black hover:underline"
                             >Covid-19 Information
                         </a>
                     </div>
@@ -121,51 +165,182 @@
             </div>
         </section>
 
-        <!-- News/Events -->
-        <section class="bg-gradient-to-b from-blue-400 to-blue-500">
-            <div class="h-100vh flex flex-col lg:flex-row lg:items-center container mx-auto py-20">
-                <!-- Left/Top Side -->
-                <div class="mx-auto rounded-xl shadow-xl mb-10 lg:mb-0 h-full">
-                    <img 
-                        src="swimnews.jpg" 
-                        alt=""
-                        class="h-60 rounded-xl shadow-xl"
-                    >
+        <!-- Time/Location -->
+        <section class="bg-gradient-to-r from-blue-300 to-blue-500">
+            <div class="h-100vh flex flex-col text-white text-center lg:items-center">
+                <!-- Holds Practice Times/Location -->
+                <div class="flex flex-col lg:flex-row lg:justify-evenly lg:w-full lg:pt-6">
+                    <!-- Practice Times -->
+                    <div class="subtext mt-20 mb-10 lg:my-20">
+                        <h2
+                            class="text-5xl xl:text-6xl font-semibold tracking-wide border-b-2 border-white w-max mx-auto mb-5"
+                            >Practice Times
+                        </h2>
+                        <h3
+                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
+                            >Monday & Thursday:
+                        </h3>
+                        <h4
+                            class="text-2xl xl:text-3xl tracking-widest"
+                            >9:30am - 11:45am
+                        </h4>
+                        <h3
+                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
+                            >Saturday:
+                        </h3>
+                        <h4
+                            class="text-2xl xl:text-3xl tracking-widest"
+                            >11:30am-1:45pm
+                        </h4>
+                        <h3
+                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
+                            >Sunday:
+                        </h3>
+                        <h4
+                            class="text-2xl xl:text-3xl tracking-widest"
+                            >9:15am-11:45am
+                        </h4>
+                        <h3
+                            class="text-lg xl:text-xl tracking-widest font-semibold mt-5"
+                            >*Hours May Vary on Holidays*
+                        </h3>
+                    </div>
+                    <!-- Location -->
+                    <div class="subtext mb-20 mt-10 lg:my-20">
+                        <h2
+                            class="text-5xl xl:text-6xl font-semibold tracking-wide border-b-2 border-white w-max mx-auto mb-5"
+                            >Location
+                        </h2>
+                        <h3
+                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
+                            >Address:
+                        </h3>
+                        <h4
+                            class="text-2xl xl:text-3xl tracking-widest whitespace-pre-line"
+                            >1234 W Harlem St. 
+                            Chicago, IL 60459
+                        </h4>
+                        <h3
+                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
+                            >Phone:
+                        </h3>
+                        <h4
+                            class="text-2xl xl:text-3xl tracking-widest"
+                            >(708)-123-4321
+                        </h4>
+                    </div>
                 </div>
-                <!-- Right/Bottom Side -->
-                <div class="text-white text-center lg:pr-8 xl:pr-16 2xl:pr-40">
-                    <h2
-                        class="w-96 uppercase font-bold text-5xl lg:text-6xl tracking-wide
-                        border-b-2 border-white mx-10 pb-5 mb-5 mx-auto"
-                        >Team Updates
-                    </h2>
-                    <p
-                        class="subtext font-medium text-2xl xl:text-3xl tracking-wide mx-16 whitespace-pre-line my-10"
-                        >Check out the latest news and 
-                        important updates from the 
-                        organization, tips for training, 
-                        and any upcoming events.
-                    </p>
-                    <p
-                        class="subtext font-medium text-2xl xl:text-3xl tracking-wide mx-16 whitespace-pre-line my-10"
-                        >To automatically get updated 
-                        on the latest news and 
-                        updates, register and join our 
-                        swim club by clicking <NuxtLink to="/sign" class="font-semibold hover:text-gray-300 hover:underline">here.</NuxtLink>
-                    </p>
-                    <NuxtLink
-                        to=""
-                        class="subtext text-3xl font-semibold 
-                        tracking-wide uppercase hover:text-gray-300 hover:underline"
+                <!-- Holds Contact Info -->
+                <div class="flex flex-col lg:flex-row lg: justify-evenly lg:w-full lg:pt-16 lg:pb-6">
+                    <!-- Picture -->
+                    <div class="lg:ml-20 xl:ml-14">
+                        <img 
+                            src="patrick.jpg" 
+                            alt=""
+                            class="shadow-lg rounded-full h-72 w-72 mx-auto"
                         >
-                        <fa-icon class="" :icon="['fab','twitter']" />
-                        Stay Updated
-                    </NuxtLink>
+                    </div>
+                    <!-- Contact Info -->
+                    <div class="subtext">
+                        <div class="">
+                            <div class="mt-10 mb-5 lg:mt-0">
+                                <h2
+                                    class="text-5xl xl:text-6xl font-semibold tracking-wide"
+                                    >Ricky Shancez
+                                </h2>
+                                <h3
+                                    class="text-2xl tracking-widest font-semibold"
+                                    >Founder & Head Coach
+                                </h3>
+                            </div>
+                            <div class="">
+                                <h3
+                                    class="text-2xl xl:text-3xl tracking-widest"
+                                    >708-123-4321
+                                </h3>
+                                <h3
+                                    class="text-2xl xl:text-3xl tracking-widest"
+                                    >example123@gmail.com
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="mt-10 mb-20">
+                            <NuxtLink
+                                to=""
+                                class="block mb-5 text-2xl md:text-3xl lg:text-2xl xl:text-3xl uppercase font-semibold bg-gradient-to-l 
+                                    from-blue-600 to-blue-400 px-20 pt-4 pb-2 rounded-3xl lg:px-28 xl:px-24 w-max mx-auto
+                                    hover:text-gray-300 hover:underline shadow-md hover:shadow-lg"
+                                >Contact Me
+                            </NuxtLink>
+                            <NuxtLink
+                                to="/"
+                                class="text-4xl mx-3 hover:text-gray-300"
+                                ><fa-icon :icon="['fab','instagram']" />
+                            </NuxtLink>
+                            <NuxtLink
+                                to="/"
+                                class="text-4xl mx-3 hover:text-gray-300"
+                                ><fa-icon :icon="['fab','facebook']" />
+                            </NuxtLink>
+                            <NuxtLink
+                                to="/"
+                                class="text-4xl mx-3 hover:text-gray-300"
+                                ><fa-icon :icon="['fab','twitter']" />
+                            </NuxtLink>
+                        </div>
+                       
+                    </div>
                 </div>
-                
-
             </div>
         </section>
+
+        <!-- CTA / Register Section -->
+        <section class="bg-gray-200">
+            <div class="h-100vh py-20 xl:py-32">
+                <div 
+                    class="rounded-2xl shadow subtext p-5 py-20 border-2 border-gray-300 whitespace-pre-line
+                    w-max mx-auto px-8 sm:px-10 md:px-20 lg:px-28"
+                    >
+                    <div class="flex flex-col items-center">
+                        <h2
+                            class="font-semibold text-5xl lg:text-6xl tracking-wider mb-5"
+                            >Get Connected, 
+                            Its Easy.<fa-icon class="text-4xl lg:text-5xl ml-14" :icon="['fas','arrow-down']" />
+                        </h2>
+                        <h3
+                            class="font-semibold text-2xl lg:text-3xl tracking-wider"
+                            >Stay updated and register an 
+                            account with us, for free!
+                        </h3>
+                        <p
+                            class="text-2xl lg:text-3xl text-gray-800 tracking-wider my-10"
+                            >Creating an account is fast 
+                            and simple. Our online portal 
+                            allows you to stay organized 
+                            and get live updates. You 
+                            gain the ability to link your 
+                            email and get all news sent 
+                            straight to you.
+                        </p>
+                        <div class="whitespace-normal pt-5">
+                            <NuxtLink
+                                class="text-2xl lg:text-3xl text-white uppercase font-bold bg-gradient-to-l from-blue-600 to-blue-400 
+                                pt-4 pb-2 px-20 rounded-3xl hover:text-gray-300 hover:underline shadow-md hover:shadow-xl"
+                                to="/sign"
+                                >Sign Up Today
+                            </NuxtLink>
+                            <h3
+                                class="text-lg lg:text-xl mt-5 ml-2 text-gray-800"
+                                >It takes less than a minute to sign up.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
     </div>
 </template>
 
@@ -186,9 +361,15 @@ export default {
 
 
 <style scoped>
-    
+
+    .hero {
+        background-image: url("/hero.jpg");
+        height: 80vh;
+    }
+
     h2 {
         font-family: 'Dekko', cursive;
+        text-transform: uppercase;
     }
 
     .subtext {
