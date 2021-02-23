@@ -43,7 +43,7 @@ export default {
     suffix: true,
     icons: {
       solid: ['faUserAlt', 'faUserPlus', 'faBars', 'faAward','faClinicMedical','faHandPointLeft',
-      'faChevronRight','faChevronLeft','faCheck','faArrowDown'],
+      'faChevronRight','faChevronLeft','faCheck','faArrowDown','faSwimmer'],
       brands: ['faTwitter', 'faGoogle', 'faFacebook', 'faInstagram']
     }
   },
