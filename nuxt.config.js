@@ -11,8 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dekko&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Chilanka&display=swap'} 
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap' }
     ]
   },
 

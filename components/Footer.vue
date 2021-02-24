@@ -116,7 +116,7 @@
             <!-- Copyright Info. -->
             <div class="items-center justify-center py-6 bg-blue-500">
                 <div class="flex flex-wrap items-center justify-center mx-auto">
-                    <p class="mr-5 text-sm text-center text-gray-200">© Your Company — 2021
+                    <p class="mr-5 text-sm text-center text-gray-200">© Mavs Swimming Acadamy — 2021
                     </p>
                     <a
                         href="#"
@@ -127,15 +127,3 @@
             </div>
         </footer>
     </template>
-
-    <style scoped>
-
-        .headtext {
-            font-family: 'Dekko', cursive;
-        }
-
-        .subtext {
-            font-family: 'Chilanka', cursive;
-        }
-        
-    </style>

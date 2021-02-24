@@ -1,13 +1,14 @@
 <template>
-  <div class>
-    <Header />
-    <Nuxt  />
+  <div class="antialiased">
+    <Nav class="relative" />
+    <Nuxt class="" />
     <Footer />
   </div>
 </template>
 
 <style>
 html {
+  font-family: 'Reem Kufi', sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

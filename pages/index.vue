@@ -1,8 +1,8 @@
 <template>
-    <div class="relative">
-
+    <div class="">
+        
         <!-- Hero Image -->
-        <section class="py-10">
+        <section class="">
             <div class="hero bg-cover bg-center shadow-2xl relative">
                 <!-- Background Opacity -->
                 <div 
@@ -340,7 +340,6 @@
         </section>
 
 
-
     </div>
 </template>
 
@@ -364,16 +363,7 @@ export default {
 
     .hero {
         background-image: url("/hero.jpg");
-        height: 80vh;
-    }
-
-    h2 {
-        font-family: 'Dekko', cursive;
-        text-transform: uppercase;
-    }
-
-    .subtext {
-        font-family: 'Chilanka', cursive;
+        height: 90vh;
     }
 
 </style>
