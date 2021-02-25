@@ -165,135 +165,83 @@
             </div>
         </section>
 
-        <!-- Time/Location -->
-        <section class="bg-gradient-to-r from-blue-300 to-blue-500">
-            <div class="h-100vh flex flex-col text-white text-center lg:items-center">
-                <!-- Holds Practice Times/Location -->
-                <div class="flex flex-col lg:flex-row lg:justify-evenly lg:w-full lg:pt-6">
-                    <!-- Practice Times -->
-                    <div class="subtext mt-20 mb-10 lg:my-20">
-                        <h2
-                            class="text-5xl xl:text-6xl font-semibold tracking-wide border-b-2 border-white w-max mx-auto mb-5"
-                            >Practice Times
-                        </h2>
-                        <h3
-                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
-                            >Monday & Thursday:
-                        </h3>
-                        <h4
-                            class="text-2xl xl:text-3xl tracking-widest"
-                            >9:30am - 11:45am
-                        </h4>
-                        <h3
-                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
-                            >Saturday:
-                        </h3>
-                        <h4
-                            class="text-2xl xl:text-3xl tracking-widest"
-                            >11:30am-1:45pm
-                        </h4>
-                        <h3
-                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
-                            >Sunday:
-                        </h3>
-                        <h4
-                            class="text-2xl xl:text-3xl tracking-widest"
-                            >9:15am-11:45am
-                        </h4>
-                        <h3
-                            class="text-lg xl:text-xl tracking-widest font-semibold mt-5"
-                            >*Hours May Vary on Holidays*
-                        </h3>
-                    </div>
-                    <!-- Location -->
-                    <div class="subtext mb-20 mt-10 lg:my-20">
-                        <h2
-                            class="text-5xl xl:text-6xl font-semibold tracking-wide border-b-2 border-white w-max mx-auto mb-5"
-                            >Location
-                        </h2>
-                        <h3
-                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
-                            >Address:
-                        </h3>
-                        <h4
-                            class="text-2xl xl:text-3xl tracking-widest whitespace-pre-line"
-                            >1234 W Harlem St. 
-                            Chicago, IL 60459
-                        </h4>
-                        <h3
-                            class="text-2xl xl:text-3xl tracking-widest font-semibold"
-                            >Phone:
-                        </h3>
-                        <h4
-                            class="text-2xl xl:text-3xl tracking-widest"
-                            >(708)-123-4321
-                        </h4>
-                    </div>
-                </div>
-                <!-- Holds Contact Info -->
-                <div class="flex flex-col lg:flex-row lg: justify-evenly lg:w-full lg:pt-16 lg:pb-6">
-                    <!-- Picture -->
-                    <div class="lg:ml-20 xl:ml-14">
+
+        <section class="bg-gradient-to-r from-blue-300 to-blue-500 relative">
+            <div class="flex flex-col lg:flex-row container mx-auto px-20 py-20">
+                <!-- Contact -->
+                <div class="flex flex-col">
+                    <!-- Image -->
+                    <div class="">
                         <img 
                             src="patrick.jpg" 
                             alt=""
-                            class="shadow-lg rounded-full h-72 w-72 mx-auto"
+                            class="shadow-xl rounded-xl h-96 mx-auto"
                         >
                     </div>
                     <!-- Contact Info -->
-                    <div class="subtext">
-                        <div class="">
-                            <div class="mt-10 mb-5 lg:mt-0">
+                    <div class="text-white">
+                        <div class="flex flex-col items-center">
+                            <div class="mt-5 mb-2 lg:mt-3 text-center lg:text-left">
                                 <h2
-                                    class="text-5xl xl:text-6xl font-semibold tracking-wide"
+                                    class="text-4xl font-semibold tracking-wide"
                                     >Ricky Shancez
                                 </h2>
                                 <h3
-                                    class="text-2xl tracking-widest font-semibold"
+                                    class="text-2xl tracking-widest"
                                     >Founder & Head Coach
                                 </h3>
                             </div>
-                            <div class="">
+                            <div class="text-center lg:text-left">
+                                <NuxtLink
+                                    to="/"
+                                    class="text-xl tracking-widest font-semibold hover:text-gray-300 hover:underline flex mb-1"
+                                    ><fa-icon class="text-2xl mr-2" :icon="['fas','envelope-open']" />example123@gmail.com
+                                </NuxtLink>
                                 <h3
-                                    class="text-2xl xl:text-3xl tracking-widest"
-                                    >708-123-4321
-                                </h3>
-                                <h3
-                                    class="text-2xl xl:text-3xl tracking-widest"
-                                    >example123@gmail.com
+                                    class="text-xl tracking-widest font-semibold"
+                                    >(708)-123-4321
                                 </h3>
                             </div>
                         </div>
-                        <div class="mt-10 mb-20">
-                            <NuxtLink
-                                to=""
-                                class="block mb-5 text-2xl md:text-3xl lg:text-2xl xl:text-3xl uppercase font-semibold bg-gradient-to-l 
-                                    from-blue-600 to-blue-400 px-20 pt-4 pb-2 rounded-3xl lg:px-28 xl:px-24 w-max mx-auto
-                                    hover:text-gray-300 hover:underline shadow-md hover:shadow-lg"
-                                >Contact Me
-                            </NuxtLink>
-                            <NuxtLink
-                                to="/"
-                                class="text-4xl mx-3 hover:text-gray-300"
-                                ><fa-icon :icon="['fab','instagram']" />
-                            </NuxtLink>
-                            <NuxtLink
-                                to="/"
-                                class="text-4xl mx-3 hover:text-gray-300"
-                                ><fa-icon :icon="['fab','facebook']" />
-                            </NuxtLink>
-                            <NuxtLink
-                                to="/"
-                                class="text-4xl mx-3 hover:text-gray-300"
-                                ><fa-icon :icon="['fab','twitter']" />
-                            </NuxtLink>
-                        </div>
-                       
                     </div>
+                </div>
+                <!-- Description of Company -->
+                <div class="text-white mt-20 lg:my-0 sm:whitespace-pre-line">
+                    <h2
+                        class="text-4xl font-semibold mb-10">We strive for excellence.
+                    </h2>
+                    <h3
+                        class="text-2xl tracking-widest font-semibold mb-3">Your child's potential awaits.
+                    </h3>
+                    <p
+                        class="text-lg tracking-wide mb-5"
+                        >We are committed to providing a healthy and positive 
+                        environment free from abuse for all its members. Our Safe 
+                        Sport program, a comprehensive abuse prevention program, 
+                        consists of a multi-layered approach to keep kids safe. These 
+                        measures are informed by experts in the field of child safety 
+                        and are among the strongest safeguards found in youth-
+                        serving organizations globally.
+                    </p>
+                    <p
+                        class="text-lg tracking-wide"
+                        >Swimming offers a variety of health and safety benefits and 
+                        we offer a wife variety of swimming programs for all ages. 
+                        That includes infant swim lessons, toddler swim lessons, and 
+                        programs for children between 4 months and 12 years old. 
+                        Maverics Swimming programs have low student-to-teacher 
+                        ratio so that everyone feels safe while still learning.
+                    </p>
+                    <h3
+                        class="font-semibold tracking-widest text-2xl my-5 whitespace-pre-line"
+                        >Location: 1234 W Harlem St. 
+                        Chicago, IL 60459
+                    </h3>
                 </div>
             </div>
         </section>
 
+        
         <!-- CTA / Register Section -->
         <section class="bg-gray-200">
             <div class="h-100vh py-20 xl:py-32">
