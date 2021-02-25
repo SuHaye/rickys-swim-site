@@ -187,7 +187,7 @@
                                     >Ricky Shancez
                                 </h2>
                                 <h3
-                                    class="text-2xl tracking-widest"
+                                    class="text-2xl tracking-wider"
                                     >Founder & Head Coach
                                 </h3>
                             </div>
@@ -206,25 +206,25 @@
                     </div>
                 </div>
                 <!-- Description of Company -->
-                <div class="text-white mt-20 lg:my-0 sm:whitespace-pre-line">
+                <div class="lg:ml-20 text-white mt-20 lg:my-0">
                     <h2
-                        class="text-4xl font-semibold mb-10">We strive for excellence.
+                        class="text-4xl lg:text-5xl font-semibold mb-10">We strive for excellence.
                     </h2>
                     <h3
-                        class="text-2xl tracking-widest font-semibold mb-3">Your child's potential awaits.
+                        class="text-2xl lg:text-3xl tracking-widest font-semibold mb-3">Your child's potential awaits.
                     </h3>
                     <p
-                        class="text-lg tracking-wide mb-5"
+                        class="text-lg lg:text-xl tracking-wide mb-5"
                         >We are committed to providing a healthy and positive 
                         environment free from abuse for all its members. Our Safe 
                         Sport program, a comprehensive abuse prevention program, 
                         consists of a multi-layered approach to keep kids safe. These 
                         measures are informed by experts in the field of child safety 
                         and are among the strongest safeguards found in youth-
-                        serving organizations globally.
+                        serving organizations.
                     </p>
                     <p
-                        class="text-lg tracking-wide"
+                        class="text-lg lg:text-xl tracking-wide"
                         >Swimming offers a variety of health and safety benefits and 
                         we offer a wife variety of swimming programs for all ages. 
                         That includes infant swim lessons, toddler swim lessons, and 
@@ -233,7 +233,7 @@
                         ratio so that everyone feels safe while still learning.
                     </p>
                     <h3
-                        class="font-semibold tracking-widest text-2xl my-5 whitespace-pre-line"
+                        class="font-semibold tracking-widest text-2xl lg:text-3xl my-5 whitespace-pre-line"
                         >Location: 1234 W Harlem St. 
                         Chicago, IL 60459
                     </h3>
