@@ -136,7 +136,7 @@
                     </h2>
                     <div class="subtext px-4 mx-auto">
                         <p
-                            class="font-medium text-gray-800 text-xl md:text-2xl xl:text-3xl tracking-wide 
+                            class="font-medium text-gray-800 text-xl md:text-2xl xl:text-3xl 
                             px-5 py-5 xl:py-4 whitespace-pre-line"
                             >Help your swimmers through this pandemic 
                             with various resources for members and 
@@ -169,7 +169,7 @@
         <section class="bg-gradient-to-r from-blue-300 to-blue-500 relative">
             <div class="flex flex-col lg:flex-row container mx-auto px-20 py-20">
                 <!-- Contact -->
-                <div class="flex flex-col">
+                <div class="flex flex-col lg:my-auto xl:my-0">
                     <!-- Image -->
                     <div class="">
                         <img 
@@ -199,7 +199,7 @@
                                 </NuxtLink>
                                 <h3
                                     class="text-xl tracking-widest font-semibold"
-                                    >(708)-123-4321
+                                    ><fa-icon class="text-2xl mr-2" :icon="['fas','phone-alt']" />(708)-123-4321
                                 </h3>
                             </div>
                         </div>
@@ -233,7 +233,7 @@
                         ratio so that everyone feels safe while still learning.
                     </p>
                     <h3
-                        class="font-semibold tracking-widest text-2xl lg:text-3xl my-5 whitespace-pre-line"
+                        class="font-semibold tracking-widest text-2xl lg:text-3xl my-5 xl:mt-10 2xl:my-16 whitespace-pre-line"
                         >Location: 1234 W Harlem St. 
                         Chicago, IL 60459
                     </h3>
@@ -244,12 +244,12 @@
         
         <!-- CTA / Register Section -->
         <section class="bg-gray-200">
-            <div class="h-100vh py-20 xl:py-32">
+            <div class="h-100vh px-10 py-20 xl:py-32 mx-auto">
                 <div 
-                    class="rounded-2xl shadow subtext p-5 py-20 border-2 border-gray-300 whitespace-pre-line
-                    w-max mx-auto px-8 sm:px-10 md:px-20 lg:px-28"
+                    class="rounded-2xl shadow subtext p-5 py-20 border-2 border-gray-300 whitespace-pre-line w-max
+                     mx-auto px-8 sm:px-10 md:px-20 lg:px-28"
                     >
-                    <div class="flex flex-col items-center">
+                    <div class="flex flex-col items-left">
                         <h2
                             class="font-semibold text-5xl lg:text-6xl tracking-wider mb-5"
                             >Get Connected, 
@@ -261,19 +261,18 @@
                             account with us, for free!
                         </h3>
                         <p
-                            class="text-2xl lg:text-3xl text-gray-800 tracking-wider my-10"
-                            >Creating an account is fast 
-                            and simple. Our online portal 
-                            allows you to stay organized 
-                            and get live updates. You 
-                            gain the ability to link your 
-                            email and get all news sent 
-                            straight to you.
+                            class="text-xl lg:text-2xl text-gray-800 tracking-wide my-10"
+                            >Creating an account is fast and simple. 
+                            Our online portal allows you to stay 
+                            organized and get live updates. You 
+                            gain the ability to link your email and 
+                            get all news sent straight to you. All 
+                            you need is an active email.
                         </p>
-                        <div class="whitespace-normal pt-5">
+                        <div class="whitespace-normal pt-5 mx-auto text-center">
                             <NuxtLink
                                 class="text-2xl lg:text-3xl text-white uppercase font-bold bg-gradient-to-l from-blue-600 to-blue-400 
-                                pt-4 pb-2 px-20 rounded-3xl hover:text-gray-300 hover:underline shadow-md hover:shadow-xl"
+                                py-3 px-20 rounded-3xl hover:text-gray-300 hover:underline shadow-md hover:shadow-xl"
                                 to="/sign"
                                 >Sign Up Today
                             </NuxtLink>
