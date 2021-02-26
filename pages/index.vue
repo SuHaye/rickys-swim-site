@@ -44,77 +44,32 @@
             </div>
         </section>
 
-        <!-- Vision Section -->
         <section class="bg-gradient-to-l from-blue-300 to-blue-500">
-            <div class="flex flex-row h-100vh pt-20 container mx-auto xl:pr-10 2xl:pr-20">
-                <div class="flex flex-col container mx-auto text-white px-5 lg:px-0">
-                    <!-- Vision -->
-                    <div class="text-center my-auto xl:pb-10">
-                        <div class="bg-blue-300 shadow-lg mx-auto rounded-full p-3 px-4 w-min mb-5">
-                            <fa-icon class="text-5xl xl:text-6xl" :icon="['fas','award']" />
-                        </div>
-                        <h2
-                            class="uppercase font-bold text-5xl xl:text-6xl tracking-wide 
-                            border-b-2 border-white mx-10 pb-2.5 mb-5 w-96 mx-auto"
-                            >Our Vision
-                        </h2>
-                        <p
-                            class="subtext font-medium text-2xl xl:text-3xl tracking-wide px-5 whitespace-pre-line"
-                            >To inspire and enable our 
-                            members to achieve excellence in 
-                            the sport of swimming. We also 
-                            want to help our swimmers 
-                            implement what they learn at 
-                            practice into daily life.
-                        </p>
-                    </div>
-                    <!-- Prioritize -->
-                    <div class="py-10 my-auto px-4">
-                        <h2
-                            class="uppercase font-bold text-5xl xl:text-6xl tracking-wide text-center border-b-2 
-                            border-white pb-2.5 mb-5 w-96 mx-auto"
-                            >We Prioritize
-                        </h2>
-                        <ul class="subtext font-medium text-2xl xl:text-3xl tracking-wide whitespace-pre-line flex flex-col items-center">
-                            <span class="flex flex-row my-2.5">
-                                <!-- Check Icon -->
-                                <fa-icon class="text-white mr-2" :icon="['fas','check']" />
-                                <!-- Text -->
-                                <li
-                                    class="whitespace-pre-line"
-                                    >Competitice succes at 
-                                    the international level.
-                                </li>
-                            </span>
-                            <span class="flex flex-row my-2.5">
-                                <!-- Check Icon -->
-                                <fa-icon class="text-white mr-2" :icon="['fas','check']" />
-                                <!-- Text -->
-                                <li
-                                    class="whitespace-pre-line"
-                                    >Resources to support 
-                                    athelees and parents.
-                                </li>
-                            </span>
-                            <span class="flex flex-row my-2.5">
-                                <!-- Check Icon -->
-                                <fa-icon class="text-white mr-2" :icon="['fas','check']" />
-                                <!-- Text -->
-                                <li
-                                    class="whitespace-pre-line"
-                                    >Public engagement with 
-                                    swimming.
-                                </li>
-                            </span>
-                        </ul>
-                    </div>
+            <div class="text-white flex flex-col lg:flex-row container mx-auto h-100vh text-black px-20 py-20 xl:w-11/12">
+                <div class="flex flex-col lg:w-2/3">
+                    <h2
+                        class="text-5xl lg:text-6xl font-semibold mb-10">
+                        We seek to inspire.
+                    </h2>
+                    <p
+                        class="text-xl lg:text-2xl mb-5"
+                        >Our vision is simply to motivate and enable our members to achieve excellence
+                         in the sport of swimming. We also want to help our swimmers implement
+                          what they learn at practice into daily life.
+                    </p>
+                    <p
+                        class="text-xl lg:text-2xl"
+                        >We prioritize compteition success at the international level. We provide
+                         a variety of resources to support athleetes and parents throughout the process.
+                          Public engagement with swimming is encouraged.
+                    </p>
                 </div>
-                <!-- Image after lg screen -->
-                <div class="hidden lg:flex my-20 px-20">
+
+                <div class=" lg:flex mt-20 lg:mt-0 lg:pl-20">
                     <img 
                         src="vision.jpg" 
                         alt="" 
-                        class="shadow-xl rounded-xl"
+                        class="shadow-xl rounded-xl h-96 lg:my-auto mx-auto"
                     >
                 </div>
             </div>
@@ -130,13 +85,13 @@
                         class="w-5/6 md:w-4/5 lg:w-3/5 xl:w-1/2 2xl:w-2/5 mx-auto rounded-xl shadow-xl"
                     >
                     <h2
-                        class="mt-16 md:mt-12 font-semibold text-4xl md:text-5xl xl:text-6xl tracking-wide 
+                        class="mt-16 md:mt-12 font-semibold text-4xl lg:text-5xl tracking-wide 
                         md:tracking-wider border-b-2 border-black mx-10 pb-5 mb-5 mx-auto"
                         >Swimming Through A Crisis
                     </h2>
                     <div class="subtext px-4 mx-auto">
                         <p
-                            class="font-medium text-gray-800 text-xl md:text-2xl xl:text-3xl 
+                            class="font-medium text-gray-800 text-xl md:text-2xl 
                             px-5 py-5 xl:py-4 whitespace-pre-line"
                             >Help your swimmers through this pandemic 
                             with various resources for members and 
@@ -145,7 +100,7 @@
                             business support, and stay connected.
                         </p>
                         <p
-                            class="font-medium text-gray-800 text-xl md:text-2xl xl:text-3xl tracking-wide 
+                            class="font-medium text-gray-800 text-xl md:text-2xl tracking-wide 
                             px-5 py-5 xl:py-4 whitespace-pre-line"
                             >We continue to stress the importance of 
                             preventing the spread of infection and 
@@ -165,9 +120,9 @@
             </div>
         </section>
 
-
+        <!--       -->
         <section class="bg-gradient-to-r from-blue-300 to-blue-500 relative">
-            <div class="flex flex-col lg:flex-row container mx-auto px-20 py-20">
+            <div class="flex flex-col lg:flex-row container mx-auto px-20 py-20 xl:w-11/12">
                 <!-- Contact -->
                 <div class="flex flex-col lg:my-auto xl:my-0">
                     <!-- Image -->
@@ -195,11 +150,11 @@
                                 <NuxtLink
                                     to="/"
                                     class="text-xl tracking-widest font-semibold hover:text-gray-300 hover:underline flex mb-1"
-                                    ><fa-icon class="text-2xl mr-2" :icon="['fas','envelope-open']" />example123@gmail.com
+                                    ><fa-icon class="text-xl mr-2" :icon="['fas','envelope-open']" />example123@gmail.com
                                 </NuxtLink>
                                 <h3
                                     class="text-xl tracking-widest font-semibold"
-                                    ><fa-icon class="text-2xl mr-2" :icon="['fas','phone-alt']" />(708)-123-4321
+                                    ><fa-icon class="text-xl mr-2" :icon="['fas','phone-alt']" />(708)-123-4321
                                 </h3>
                             </div>
                         </div>
@@ -214,7 +169,7 @@
                         class="text-2xl lg:text-3xl tracking-widest font-semibold mb-3">Your child's potential awaits.
                     </h3>
                     <p
-                        class="text-lg lg:text-xl tracking-wide mb-5"
+                        class="text-lg md:text-xl  tracking-wide mb-5"
                         >We are committed to providing a healthy and positive 
                         environment free from abuse for all its members. Our Safe 
                         Sport program, a comprehensive abuse prevention program, 
@@ -224,7 +179,7 @@
                         serving organizations.
                     </p>
                     <p
-                        class="text-lg lg:text-xl tracking-wide"
+                        class="text-lg md:text-xl tracking-wide"
                         >Swimming offers a variety of health and safety benefits and 
                         we offer a wife variety of swimming programs for all ages. 
                         That includes infant swim lessons, toddler swim lessons, and 
@@ -251,7 +206,7 @@
                     >
                     <div class="flex flex-col items-left">
                         <h2
-                            class="font-semibold text-5xl lg:text-6xl tracking-wider mb-5"
+                            class="font-semibold text-4xl lg:text-5xl tracking-wider mb-5"
                             >Get Connected, 
                             Its Easy.<fa-icon class="text-4xl lg:text-5xl ml-14" :icon="['fas','arrow-down']" />
                         </h2>
