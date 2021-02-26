@@ -46,19 +46,19 @@
 
         <section class="bg-gradient-to-l from-blue-300 to-blue-500">
             <div class="text-white flex flex-col lg:flex-row container mx-auto h-100vh text-black px-20 py-20 xl:w-11/12">
-                <div class="flex flex-col lg:w-2/3">
+                <div class="flex flex-col lg:w-2/3 xl:w-11/12 xl:mx-auto">
                     <h2
                         class="text-5xl lg:text-6xl font-semibold mb-10">
                         We seek to inspire.
                     </h2>
                     <p
-                        class="text-xl lg:text-2xl mb-5"
+                        class="text-xl md:text-2xl mb-5"
                         >Our vision is simply to motivate and enable our members to achieve excellence
                          in the sport of swimming. We also want to help our swimmers implement
                           what they learn at practice into daily life.
                     </p>
                     <p
-                        class="text-xl lg:text-2xl"
+                        class="text-xl md:text-2xl"
                         >We prioritize compteition success at the international level. We provide
                          a variety of resources to support athleetes and parents throughout the process.
                           Public engagement with swimming is encouraged.
@@ -76,7 +76,7 @@
         </section>
 
         <!-- COVID Info Section  -->
-        <section class="bg-gray-200">
+        <section class="bg-gradient-to-l from-gray-200 to-gray-300">
             <div class="container mx-auto h-100vh text-black pt-24 md:pt-20 pb-20">
                 <div class="flex flex-col">
                     <img 
@@ -198,7 +198,7 @@
 
         
         <!-- CTA / Register Section -->
-        <section class="bg-gray-200">
+        <section class="bg-gradient-to-r from-gray-200 to-gray-300">
             <div class="h-100vh px-10 py-20 xl:py-32 mx-auto">
                 <div 
                     class="rounded-2xl shadow subtext p-5 py-20 border-2 border-gray-300 whitespace-pre-line w-max
