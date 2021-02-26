@@ -201,7 +201,7 @@
         <section class="bg-gradient-to-r from-gray-200 to-gray-300">
             <div class="h-100vh px-10 py-20 xl:py-32 mx-auto">
                 <div 
-                    class="rounded-2xl shadow subtext p-5 py-20 border-2 border-gray-300 whitespace-pre-line w-max
+                    class="rounded-2xl shadow-xl subtext p-5 py-20 border-2 border-gray-300 whitespace-pre-line w-max
                      mx-auto px-8 sm:px-10 md:px-20 lg:px-28"
                     >
                     <div class="flex flex-col items-left">

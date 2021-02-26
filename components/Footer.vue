@@ -6,7 +6,7 @@
                     <!-- Left Side/Top -->
                     <div class="">
                             <div class="hidden lg:block mx-16">
-                                <h2 class="headtext uppercase text-white text-4xl xl:text-5xl font-semibold tracking-wider"
+                                <h2 class="headtext uppercase text-white text-4xl font-semibold tracking-wider"
                                 >Let's keep in touch!
                                 </h2>
                                 <p 
@@ -20,31 +20,32 @@
                                     to="/"
                                     class="hover:text-gray-300"
                                     >
-                                    <fa-icon class="text-6xl md:text-7xl lg:text-5xl xl:text-6xl" :icon="['fab','instagram']" />
+                                    <fa-icon class="text-6xl md:text-7xl lg:text-5xl" :icon="['fab','instagram']" />
                                 </NuxtLink>
                                 <NuxtLink
                                     to="/"
                                     class="hover:text-gray-300"
                                     >
-                                    <fa-icon class="text-6xl md:text-7xl lg:text-5xl xl:text-6xl" :icon="['fab','facebook']" />
+                                    <fa-icon class="text-6xl md:text-7xl lg:text-5xl" :icon="['fab','facebook']" />
                                 </NuxtLink>
                                 <NuxtLink
                                     to="/"
                                     class="hover:text-gray-300"
                                     >
-                                    <fa-icon class="text-6xl md:text-7xl lg:text-5xl xl:text-6xl" :icon="['fab','twitter']" />
+                                    <fa-icon class="text-6xl md:text-7xl lg:text-5xl" :icon="['fab','twitter']" />
                                 </NuxtLink>
                             </div>
                     </div>
                     <!-- Right Side/Bottom -->
-                    <div class="pt-10 lg:pt-0 lg:mx-auto text-xl lg:text-lg 2xl:text-xl lg:flex lg:w-1/2 lg:flex lg:justify-evenly md:text-2xl">
+                    <div class="pt-10 lg:pt-0 lg:mx-auto text-xl lg:text-lg 2xl:text-xl lg:flex lg:w-1/2 lg:flex lg:justify-evenly 
+                    md:text-2xl">
                         <div class="text-center mb-5">
                             <h2
                                 class="hidden lg:block text-white font-bold tracking-widest headtext uppercase
-                                border-b-2 border-white pb-1.5 mb-3 text-2xl xl:text-3xl"
+                                border-b-2 border-white pb-1.5 mb-3 text-2xl"
                                 >Useful Links
                             </h2>
-                            <div class="lg:text-xl xl:text-2xl subtext font-semibold tracking-wide lg:tracking-widest text-white 
+                            <div class="lg:text-xl subtext font-semibold tracking-wide lg:tracking-widest text-white 
                             lg:flex-col flex justify-evenly">
                                 <NuxtLink
                                     to="/"
@@ -82,9 +83,10 @@
                                 </NuxtLink>
                             </div>
                         </div>
-                        <div class="hidden lg:flex lg:flex-col text-center mt-10 lg:mt-0 subtext text-xl xl:text-2xl font-semibold tracking-widest">
+                        <div class="hidden lg:flex lg:flex-col text-center mt-10 lg:mt-0 subtext text-xl font-semibold 
+                        tracking-widest">
                             <h2
-                                class="text-white font-bold tracking-widest headtext uppercase text-2xl xl:text-3xl
+                                class="text-white font-bold tracking-widest headtext uppercase text-2xl
                                 border-b-2 border-white pb-1.5 mb-3"
                             >Other Resources
                             </h2>

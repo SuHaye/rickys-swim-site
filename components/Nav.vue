@@ -15,7 +15,7 @@
                         <NuxtLink
                             to="/"
                             id="logo"
-                            class=" text-3xl sm:text-4xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold tracking-widest"
+                            class=" text-4xl sm:text-4xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold tracking-widest"
                             >Mavs Swim Academy
                         </NuxtLink>
                         <h3
@@ -42,7 +42,7 @@
                         <div class="flex mb-5 lg:mb-2">
                         <!-- Sign In / Sign Up -->
                         <NuxtLink
-                            class="hidden lg:block my-auto headtext font-semibold text-xl uppercase bg-gradient-to-l from-blue-200 to-white 
+                            class="hidden lg:block my-auto headtext font-semibold text-lg uppercase bg-gradient-to-l from-blue-200 to-white 
                             px-5 xl:px-10 2xl:px-14 py-1 rounded-3xl hover:text-blue-600 hover:underline hover:shadow-xl shadow-md tracking-wider
                              xl:tracking-widest text-blue-500"
                             to="/sign"
@@ -51,24 +51,24 @@
                         <!-- Social Media Links -->
                             <NuxtLink
                                 to="/"
-                                class="text-4xl mr-3 lg:mx-3 hover:text-gray-300 w-max"
+                                class="text-3xl mr-3 lg:mx-3 hover:text-gray-300 w-max"
                                 ><fa-icon :icon="['fab','instagram']" />
                             </NuxtLink>
                             <NuxtLink
                                 to="/"
-                                class="text-4xl mx-3 hover:text-gray-300 w-max"
+                                class="text-3xl mx-3 hover:text-gray-300 w-max"
                                 ><fa-icon :icon="['fab','facebook']" />
                             </NuxtLink>
                             <NuxtLink
                                 to="/"
-                                class="text-4xl mx-3 hover:text-gray-300 w-max"
+                                class="text-3xl mx-3 hover:text-gray-300 w-max"
                                 ><fa-icon :icon="['fab','twitter']" />
                             </NuxtLink>
                         </div>
                     </div>
                     <!-- Bottom Section -->
                     <div class="pl-10 lg:px-10 xl:px-20 pb-2 lg:pb-0 w-full">
-                        <div class="text-2xl lg:text-lg xl:text-xl 2xl:text-2xl font-semibold subtext tracking-widest uppercase lg:justify-end
+                        <div class="text-xl lg:text-lg xl:text-xl font-semibold subtext tracking-widest uppercase lg:justify-end
                          flex flex-col lg:flex-row">
                             <NuxtLink
                                 class="hover:text-gray-300 hover:underline pt-1 w-max lg:mx-2.5 my-1 lg:my-0"
